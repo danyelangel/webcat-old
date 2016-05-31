@@ -1,0 +1,16 @@
+.editorWrapper(layout="column")
+  wc-editor-nav(
+  tao="$ctrl.tao" 
+  doc="$ctrl.doc" 
+  is-preview="$ctrl.isPreview")
+  md-content(flex)
+    wc-editor-splash
+    wc-editor-sections(
+    doc="$ctrl.doc"
+    is-preview="$ctrl.isPreview"
+    on-section-add="$ctrl.addSection()"
+    on-section-remove="$ctrl.removeSection()"
+    on-section-update="$ctrl.updateSection()"
+    on-section-image-upload="$ctrl.uploadSectionImage()"
+    on-section-image-remove="$ctrl.removeSectionImage()")
+    wc-editor-footer

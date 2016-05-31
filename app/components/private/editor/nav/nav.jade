@@ -1,0 +1,10 @@
+md-toolbar.md-whiteframe-3dp(layout-align="center center")
+  .md-toolbar-tools.container
+    md-button.md-icon-button(
+    ng-click="$ctrl.goBack()")
+      md-icon|arrow_back
+    h2|{{$ctrl.doc.metadata.title}}
+    div(flex)
+    md-button.md-icon-button(
+    ng-click="$ctrl.isPreview = !$ctrl.isPreview")
+      md-icon|{{!$ctrl.isPreview ? 'visibility' : 'visibility_off'}}

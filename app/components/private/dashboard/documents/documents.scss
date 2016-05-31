@@ -1,0 +1,11 @@
+dashboard-documents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  a.md-headline {
+    cursor: pointer;
+  }
+  a.md-headline:hover {
+    text-decoration: underline;
+  }
+}

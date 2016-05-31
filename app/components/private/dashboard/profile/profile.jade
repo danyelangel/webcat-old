@@ -1,0 +1,35 @@
+md-card
+  md-card-title
+    md-card-title-media
+      .md-media-lg.card-media.icon-controls-wrapper.backgroundImageCover(
+      ng-style="{backgroundImage: 'url('+($ctrl.state.userProfile.avatar.imageUrl || $ctrl.placeholder)+')'}")
+        .icon-controls
+          md-button.md-icon-button(
+          ngf-select="$ctrl.uploadImage($file)"
+          ngf-multiple="false"
+          accept="image/*"
+          ngf-resize="{width: 500, height: 500}")
+            md-icon|file_upload
+    div(flex="5")
+    md-card-title-text
+      .md-headline(
+      medium-editor 
+      bind-options="{disableReturn: true, disableExtraSpaces: true, toolbar: false}"
+      data-placeholder="Nombre"
+      ng-model="$ctrl.state.userProfile.name"
+      ng-change="$ctrl.update()"
+      ng-model-options="{ debounce: 1000 }")
+      .md-subhead(
+      medium-editor 
+      bind-options="{disableReturn: true, disableExtraSpaces: true, toolbar: false}"
+      data-placeholder="Ubicación"
+      ng-model="$ctrl.state.userProfile.location"
+      ng-change="$ctrl.update()"
+      ng-model-options="{ debounce: 1000 }")
+      .md-body-1(
+      medium-editor 
+      bind-options="$ctrl.wysiwygOptions"
+      data-placeholder="Descripción"
+      ng-model="$ctrl.state.userProfile.description"
+      ng-change="$ctrl.update()"
+      ng-model-options="{ debounce: 1000 }")

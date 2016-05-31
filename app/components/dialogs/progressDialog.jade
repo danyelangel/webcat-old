@@ -1,0 +1,13 @@
+md-dialog(aria-label="Uploading")
+  md-toolbar
+    .md-toolbar-tools
+      h2|{{$ctrl.title}}
+  md-dialog-content
+    md-progress-linear(
+    md-mode="determinate" 
+    value="{{$ctrl.progress.percentage}}")
+    input(
+    ng-show="false"
+    ng-model="$ctrl.progress.percentage"
+    ng-change="$ctrl.hide()")
+  

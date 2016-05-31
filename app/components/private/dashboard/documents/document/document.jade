@@ -1,0 +1,40 @@
+// Card View
+md-card(md-theme="dashboard")
+  img.md-card-image(ng-src="{{$ctrl.metadata.image}}")
+  md-card-title
+    md-card-title-text
+      a.md-headline(ng-click="$ctrl.edit()")
+        |{{$ctrl.getDocMetadata($ctrl.metadata.languages.es).title}}
+      .md-body-1
+        |{{$ctrl.getDocMetadata($ctrl.metadata.languages.es).description}}
+      br
+      .md-body-1|{{$ctrl.metadata.description[$ctrl.Lang.$current]}}
+  div(layout="row" layout-align="start" layout-padding)
+    
+    // Archive - Unarchive
+    md-button.md-icon-button.md-hue-2.md-primary(
+    ng-disabled="$ctrl.isDisabled"
+    ng-click="$ctrl.archive()"
+    ng-hide="$ctrl.metadata.isArchived")
+      i.material-icons|archive
+    md-button.md-icon-button.md-hue-2.md-primary(
+    ng-disabled="$ctrl.isDisabled"
+    ng-click="$ctrl.unarchive()"
+    ng-show="$ctrl.metadata.isArchived")
+      i.material-icons|unarchive
+    
+    // Edit
+    md-button.md-icon-button.md-primary(
+    md-theme="db-light-btn"
+    ng-disabled="$ctrl.isDisabled"
+    ng-click="$ctrl.edit()")
+      i.material-icons|edit
+      
+    div(flex)
+    
+    // Remove
+    md-button.md-icon-button.md-primary(
+    md-theme="db-light-btn"
+    ng-disabled="$ctrl.isDisabled"
+    ng-click="$ctrl.remove()")
+      i.material-icons|delete

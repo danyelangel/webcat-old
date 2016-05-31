@@ -1,0 +1,25 @@
+add-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 2rem;
+  background: #EEEEEE;
+  cursor: pointer;
+  transition: background 0.1s;
+}
+add-section.bottom {
+  height: 6rem;
+}
+add-section:hover {
+  background: #E0E0E0;
+}
+add-section:focus {
+  outline: 0px solid transparent;
+}
+add-section.loading {
+  cursor: default;
+}
+add-section.loading:hover {
+  background: #212121;
+}

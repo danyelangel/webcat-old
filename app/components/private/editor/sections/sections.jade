@@ -1,0 +1,22 @@
+div(ng-repeat="section in $ctrl.doc.sections")
+  add-section(
+  ng-hide="$ctrl.isPreview"
+  ng-click="$ctrl.addSection($ctrl.doc.sections[$index-1].priority, section.priority)")
+    md-icon|add
+  wc-editor-section(
+  section="section" 
+  is-preview="$ctrl.isPreview"
+  on-section-update="$ctrl.updateSection(section.sectionId)"
+  on-section-remove="$ctrl.removeSection(section.sectionId)"
+  on-section-image-upload="$ctrl.uploadSectionImage(section.sectionId)"
+  on-section-image-remove="$ctrl.removeSectionImage(section.sectionId)")
+  add-section(
+  ng-hide="$ctrl.isPreview"
+  ng-if="$last" 
+  ng-click="$ctrl.addSection(section.priority)")
+    md-icon|add
+add-section(
+ng-hide="$ctrl.isPreview"
+ng-if="$ctrl.doc.sections.length < 1"
+ng-click="$ctrl.addSection(0, 2)")
+  md-icon|add

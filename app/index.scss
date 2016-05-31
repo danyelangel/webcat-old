@@ -1,0 +1,15 @@
+[contenteditable], [contenteditable]:focus {
+  outline: 0px solid transparent;
+  z-index: 1;
+  p {
+    margin: 0;
+  }
+}
+body {
+  overflow: hidden;
+  background-color: #F5F5F5;
+}
+md-content {
+  width: 100%;
+  background-color: #F5F5F5;
+}
