@@ -1,0 +1,13 @@
+.footerWrapper(layout="column" layout-align="center center")
+  .userText
+    .md-subhead.centerText(
+    medium-editor 
+    bind-options="{disableReturn: true, disableExtraSpaces: true, toolbar: false}"
+    data-placeholder="Footer"
+    ng-model="$ctrl.metadata.footer"
+    ng-blur="$ctrl.update()")
+  .footerText
+    .md-subhead.centerText
+      |Hecho con Webcat
+  
+  

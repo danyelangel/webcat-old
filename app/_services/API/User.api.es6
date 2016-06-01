@@ -111,7 +111,9 @@
       let uid = this.UserState.uid,
           rootRef = this.Database.getUserTokensRef(uid),
           ref = rootRef.child(taoId);
-      return this.Database.set(ref, null);
+      return () => {
+        return this.Database.set(ref, null);
+      };
     }
     removeProfile() {
     }

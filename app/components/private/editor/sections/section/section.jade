@@ -1,16 +1,72 @@
 .section-wrapper(
 layout="column" 
 layout-align="start center"
-layout-align-gt-sm="center center")
+layout-align-gt-sm="center center"
+ng-class="{'section-dark':!$ctrl.section.display.isBright, 'section-image-background': $ctrl.section.display.hasBackgroundImage || !$ctrl.section.content.image.imageUrl}")
   .section-toolbar(ng-hide="$ctrl.isPreview")
     edit-toolbar
       md-button.md-icon-button(
-      ng-hide="$ctrl.section.content.image.imageUrl"
+      ng-show="!$ctrl.section.content.image.imageUrl"
       ngf-select="$ctrl.uploadImage($file)"
       ngf-multiple="false"
       accept="image/*"
-      ngf-resize="{width: 1920}")
+      ngf-resize="{width: 1920, height: 1500}")
         md-icon|photo
+      md-menu(
+      md-position-mode="target-right target" 
+      ng-hide="!$ctrl.section.content.image.imageUrl")
+        md-button.md-icon-button(
+        ng-click="$ctrl.openMenu($mdOpenMenu, $event)")
+          md-icon(md-menu-origin)|photo
+        md-menu-content(width="4")
+          md-menu-item
+            md-button(
+            ngf-select="$ctrl.uploadImage($file)"
+            ngf-multiple="false"
+            accept="image/*"
+            ngf-resize="{width: 1920, height: 1500}")
+              div(layout="row" flex)
+                span(flex)|Update Image
+                md-icon.menu-right(md-menu-align-target)
+                  |photo
+                  
+          md-menu-item
+            md-button(
+            ng-click="$ctrl.removeImage()")
+              div(layout="row" flex)
+                span(flex)|Delete Image
+                md-icon.menu-right(md-menu-align-target)
+                  |remove_circle
+              
+      
+      md-menu(md-position-mode="target-right target")
+        md-button.md-icon-button(
+        ng-click="$ctrl.openMenu($mdOpenMenu, $event)")
+          md-icon(md-menu-origin)|style
+        md-menu-content(width="4")
+          md-menu-item(ng-show="$ctrl.section.display.hasBackgroundImage && $ctrl.section.content.image.imageUrl")
+            md-button(
+            ng-click="$ctrl.section.display.hasBackgroundBlur = !$ctrl.section.display.hasBackgroundBlur; $ctrl.update()")
+              div(layout="row" flex)
+                span(flex)|{{$ctrl.section.display.hasBackgroundBlur?'Disable blur':'Enable blur'}}
+                md-icon.menu-right(md-menu-align-target)|{{$ctrl.section.display.hasBackgroundBlur?'blur_off':'blur_on'}}
+              
+          md-menu-item
+            md-button(
+            ng-click="$ctrl.section.display.isBright = !$ctrl.section.display.isBright; $ctrl.update()")
+              div(layout="row" flex)
+                span(flex)|{{$ctrl.section.display.isBright?'Dark Layout':'Bright Layout'}}
+                md-icon.menu-right(md-menu-align-target)|{{$ctrl.section.display.isBright?'brightness_3':'brightness_5'}}
+              
+          md-menu-item(ng-hide="!$ctrl.section.content.image.imageUrl")
+            md-button(
+            ng-click="$ctrl.toggleBackgroundImage()")
+              div(layout="row" flex)
+                span(flex)|{{$ctrl.section.display.hasBackgroundImage?'Show image box':'Hide image box'}}
+                md-icon.menu-right(md-menu-align-target)|{{$ctrl.section.display.hasBackgroundImage?'art_track':'format_align_center'}}
+              
+              
+      ||
       md-button.md-icon-button(ng-click="$ctrl.remove()")
         md-icon|delete
   .container(
@@ -25,7 +81,7 @@ layout-align-gt-sm="center center")
     flex-gt-sm="45"
     flex-order="2"
     flex-order-gt-sm="1"
-    ng-class="{'centerText': !$ctrl.section.content.image.imageUrl}")
+    ng-class="{'centerText': !$ctrl.section.content.image.imageUrl || $ctrl.section.display.hasBackgroundImage}")
       .md-headline(
       medium-editor 
       bind-options="{disableReturn: true, disableExtraSpaces: true, toolbar: false}"
@@ -33,7 +89,9 @@ layout-align-gt-sm="center center")
       ng-model="$ctrl.section.content.title"
       ng-blur="$ctrl.update()")
 
-      .md-subhead(
+      .separator(ng-show="$ctrl.section.content.title")
+
+      .md-title(
       medium-editor 
       bind-options="$ctrl.wysiwygOptions"
       data-placeholder="Descripción"
@@ -41,27 +99,24 @@ layout-align-gt-sm="center center")
       ng-blur="$ctrl.update()")
     .image(
     ng-if="$ctrl.section.content.image.imageUrl"
+    ng-hide="$ctrl.section.display.hasBackgroundImage"
     flex="90"
     flex-sm="80"
     flex-gt-sm="45"
     flex-order="1"
     flex-order-gt-sm="2")
-      img.fullWidth(ng-src="{{$ctrl.section.content.image.imageUrl}}")
+      img.fullWidth.md-whiteframe-2dp(ng-src="{{$ctrl.section.content.image.imageUrl}}")
       .image-caption(ng-show="$ctrl.section.content.imageCaption || !$ctrl.isPreview")
-        .md-body-1(
+        .md-subhead(
         medium-editor 
         bind-options="{disableReturn: true, disableExtraSpaces: true, toolbar: false}"
         data-placeholder="Descripción"
         ng-model="$ctrl.section.content.imageCaption"
         ng-blur="$ctrl.update()")
-      edit-toolbar(layout-padding ng-hide="$ctrl.isPreview")
-        md-button.md-icon-button(
-        ngf-select="$ctrl.uploadImage($file)"
-        ngf-multiple="false"
-        accept="image/*"
-        ngf-resize="{width: 1920}")
-          md-icon|photo
+      edit-toolbar(ng-hide="$ctrl.isPreview")
         md-button.md-icon-button(ng-click="$ctrl.removeImage()")
-          md-icon|delete
+          md-icon|remove_circle
     
-  .background(ng-style="{backgroundImage: 'url('+$ctrl.section.content.image.imageUrl+')'}")
+  .background(
+  ng-style="{backgroundImage: 'url('+$ctrl.section.content.image.imageUrl+')'}"
+  ng-class="{'background-blur': $ctrl.section.display.hasBackgroundBlur, 'background-image': $ctrl.section.display.hasBackgroundImage}")

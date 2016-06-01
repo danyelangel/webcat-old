@@ -16,12 +16,17 @@
       });
     }
     removeSection(sectionId, docId) {
-      let errorDialog = this.$dialog.error('REMOVE_SECTION');
+      let confirmDialog = this.$dialog.confirm('REMOVE_SECTION'),
+          errorDialog = this.$dialog.error('REMOVE_SECTION');
       return new Promise((resolve) => {
-        this.Document
-          .removeSection(sectionId, docId)
-          .then(resolve)
-          .catch(errorDialog(resolve));
+        confirmDialog()
+          .then(() => {
+            this.Document
+              .removeSection(sectionId, docId)
+              .then(resolve)
+              .catch(errorDialog(resolve));
+          })
+          .catch(resolve);
       });
     }
     updateSection(data, sectionId, docId) {
@@ -44,12 +49,50 @@
       });
     }
     removeSectionImage(sectionId, docId) {
-      let errorDialog = this.$dialog.error('REMOVE_SECTION_IMAGE');
+      let confirmDialog = this.$dialog.confirm('REMOVE_SECTION_IMAGE'),
+          errorDialog = this.$dialog.error('REMOVE_SECTION_IMAGE');
+      return new Promise((resolve) => {
+        confirmDialog()
+          .then(() => {
+            this.Document
+              .removeSectionImage(sectionId, docId)
+              .then(resolve)
+              .catch(errorDialog(resolve));
+          })
+          .catch(resolve);
+      });
+    }
+    updateMetadata(data, docId) {
+      let errorDialog = this.$dialog.error('UPDATE_METADATA');
       return new Promise((resolve) => {
         this.Document
-          .removeSectionImage(sectionId, docId)
+          .updateMetadata(data, docId)
           .then(resolve)
           .catch(errorDialog(resolve));
+      });
+    }
+    uploadThumbnailImage(file, docId) {
+      let errorDialog = this.$dialog.error('UPLOAD_METADATA_IMAGE'),
+          progressDialog = this.$dialog.progress('UPLOAD_METADATA_IMAGE');
+      return new Promise((resolve) => {
+        this.Document
+          .uploadThumbnailImage(file, docId, progressDialog)
+          .then(resolve)
+          .catch(errorDialog(resolve));
+      });
+    }
+    removeThumbnailImage(docId) {
+      let confirmDialog = this.$dialog.confirm('REMOVE_METADATA_IMAGE'),
+          errorDialog = this.$dialog.error('REMOVE_METADATA_IMAGE');
+      return new Promise((resolve) => {
+        confirmDialog()
+          .then(() => {
+            this.Document
+              .removeThumbnailImage(docId)
+              .then(resolve)
+              .catch(errorDialog(resolve));
+          })
+          .catch(resolve);
       });
     }
   }
@@ -79,12 +122,41 @@
         REMOVE_SECTION_IMAGE: {
           title: 'Error',
           description: 'No se pudo remover imagen'
+        },
+        UPDATE_METADATA: {
+          title: 'Error',
+          description: 'No se pudo actualizar la info del doc'
+        },
+        UPLOAD_METADATA_IMAGE: {
+          title: 'Error',
+          description: 'No se pudo subir imagen'
+        },
+        REMOVE_METADATA_IMAGE: {
+          title: 'Error',
+          description: 'No se pudo remover imagen'
+        }
+      }
+    },
+    confirm: {
+      es: {
+        REMOVE_SECTION: {
+          title: 'Seguro remover seccion?',
+          description: 'Esta accion no se puede deshacer'
+        },
+        REMOVE_SECTION_IMAGE: {
+          title: 'Seguro remover imagen?',
+          description: 'Esta accion no se puede deshacer'
+        },
+        REMOVE_METADATA_IMAGE: {
+          title: 'Seguro remover imagen?',
+          description: 'Esta accion no se puede deshacer'
         }
       }
     },
     progress: {
       es: {
-        UPLOAD_SECTION_IMAGE: 'Subiendo Imagen'
+        UPLOAD_SECTION_IMAGE: 'Subiendo Imagen',
+        UPLOAD_METADATA_IMAGE: 'Subiendo Imagen'
       }
     }
   });

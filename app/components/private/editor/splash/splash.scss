@@ -1,0 +1,59 @@
+.splash-wrapper {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  .text, .section-toolbar {
+    z-index: 1;
+  }
+  .text {
+    color: #212121;
+    .md-display-1 {
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .md-headline {
+      font-weight: 400;
+    }
+  }
+  .text.centerText {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .separator {
+    display: block;
+    width: 150px;
+    height: 5px;
+    background-color: #212121;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+    opacity: .85;
+  }
+  .section-toolbar {
+    height: 38px;
+  }
+  .background-blur {
+    transform: scale(1.15);
+    filter: blur(8px);
+    opacity: .75;
+  }
+}
+.splash-wrapper.splash-dark {
+  background-color: #212121;
+  .text {
+    color: #fff;
+  }
+  .separator {
+    background-color: #fff;
+  }
+}

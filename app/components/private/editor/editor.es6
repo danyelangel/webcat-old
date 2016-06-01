@@ -16,6 +16,9 @@
       let taoId = next.params.taoId;
       this.tao = this.TaoState.getTao(taoId);
     }
+    $routerOnDeactivate() {
+      this.DocumentState.cleanUp();
+    }
     getDoc() {
       this.$scope.$watch('$ctrl.tao.languages', () => {
         let docId = this.tao.languages.es;
@@ -24,6 +27,11 @@
           this.doc = this.DocumentState.getDoc(docId);
         }
       });
+    }
+    updateMetadata() {
+      return (data) => {
+        this.DocumentActions.updateMetadata(data, this.docId);
+      };
     }
     addSection() {
       return (priority) => {
@@ -58,6 +66,18 @@
       return (sectionId) => {
         let docId = this.docId;
         this.DocumentActions.removeSectionImage(sectionId, docId);
+      };
+    }
+    uploadThumbnailImage() {
+      return (file) => {
+        let docId = this.docId;
+        this.DocumentActions.uploadThumbnailImage(file, docId);
+      };
+    }
+    removeThumbnailImage() {
+      return () => {
+        let docId = this.docId;
+        this.DocumentActions.removeThumbnailImage(docId);
       };
     }
   }

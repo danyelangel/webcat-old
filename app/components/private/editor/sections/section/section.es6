@@ -13,7 +13,20 @@
       this.onSectionImageUpload()(file);
     }
     removeImage() {
+      this.section.display.hasBackgroundImage = false;
+      this.section.display.hasBackgroundBlur = true;
+      this.update();
       this.onSectionImageRemove()();
+    }
+    openMenu($mdOpenMenu, ev) {
+      $mdOpenMenu(ev);
+    }
+    toggleBackgroundImage() {
+      this.section.display.hasBackgroundImage = !this.section.display.hasBackgroundImage;
+      if (!this.section.display.hasBackgroundImage) {
+        this.section.display.hasBackgroundBlur = true;
+      }
+      this.update();
     }
   }
   angular

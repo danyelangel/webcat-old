@@ -1,11 +1,12 @@
 (function () {
   'use strict';
   class Service {
-    constructor(UserApi, UserState, Database, DocumentApi, Lang, TaoState) {
+    constructor(UserApi, UserState, Database, DocumentApi, Lang, TaoState, DocumentState) {
       this.Database = Database;
       this.User = UserApi;
       this.UserState = UserState;
       this.Document = DocumentApi;
+      this.DocumentState = DocumentState;
       this.Lang = Lang;
       this.TaoState = TaoState;
     }
@@ -54,21 +55,18 @@
         collaboratorIds[i] = key;
         i++;
       });
-      return new Promise((resolve, reject) => {
-        Promise
-          .all([
-            this.Document
-              .removeMany(documentIds),
-            this.User
-              .removeTaoMany(taoId, collaboratorIds)
-          ])
-          .then(this.removeAllLanguages(taoId))
-          .then(this.removeAllCollaborators(taoId))
-          .then(this.removeToken(taoId))
-          .then(this.User.removeToken(taoId))
-          .then(resolve)
-          .catch(reject);
-      });
+      return Promise
+        .all([
+          this.Document
+            .removeMany(documentIds),
+          this.User
+            .removeTaoMany(taoId, collaboratorIds)
+        ])
+        .then(this.removeAllLanguages(taoId))
+        .then(this.removeIsArchived(taoId))
+        .then(this.removeAllCollaborators(taoId))
+        .then(this.removeToken(taoId))
+        .then(this.User.removeToken(taoId));
     }
     addCollaborator(userId, taoId) {
       let ref = this.Database
@@ -85,17 +83,30 @@
     removeAllCollaborators(taoId) {
       let rootRef = this.Database.getTaoRef(taoId),
           ref = rootRef.child('collaborators');
-      return this.Database.set(ref, null);
+      return () => {
+        return this.Database.set(ref, null);
+      };
+    }
+    removeIsArchived(taoId) {
+      let rootRef = this.Database.getTaoRef(taoId),
+          ref = rootRef.child('isArchived');
+      return () => {
+        return this.Database.set(ref, null);
+      };
     }
     removeAllLanguages(taoId) {
       let rootRef = this.Database.getTaoRef(taoId),
           ref = rootRef.child('languages');
-      return this.Database.set(ref, null);
+      return () => {
+        return this.Database.set(ref, null);
+      };
     }
     removeToken(taoId) {
       let rootRef = this.Database.getTaoRef(taoId),
           ref = rootRef.child('token');
-      return this.Database.set(ref, null);
+      return () => {
+        return this.Database.set(ref, null);
+      };
     }
     addLanguage(title, languageId, taoId) {
       let ref = this.Database

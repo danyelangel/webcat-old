@@ -4,7 +4,12 @@
   doc="$ctrl.doc" 
   is-preview="$ctrl.isPreview")
   md-content(flex)
-    wc-editor-splash
+    wc-editor-splash(
+    metadata="$ctrl.doc.metadata"
+    is-preview="$ctrl.isPreview"
+    on-update="$ctrl.updateMetadata()",
+    on-image-upload="$ctrl.uploadThumbnailImage()"
+    on-image-remove="$ctrl.removeThumbnailImage()")
     wc-editor-sections(
     doc="$ctrl.doc"
     is-preview="$ctrl.isPreview"
@@ -13,4 +18,6 @@
     on-section-update="$ctrl.updateSection()"
     on-section-image-upload="$ctrl.uploadSectionImage()"
     on-section-image-remove="$ctrl.removeSectionImage()")
-    wc-editor-footer
+    wc-editor-footer(
+    metadata="$ctrl.doc.metadata"
+    on-update="$ctrl.updateMetadata()")

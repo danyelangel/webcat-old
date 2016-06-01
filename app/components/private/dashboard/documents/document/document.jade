@@ -1,15 +1,34 @@
 // Card View
-md-card(md-theme="dashboard")
-  img.md-card-image(ng-src="{{$ctrl.metadata.image}}")
+md-card(md-theme="dashboard" layout="column")
+  .topImg(
+  ng-show="$ctrl.getDocMetadata($ctrl.metadata.languages.es).thumbnail.imageUrl"
+  hide
+  show-gt-sm
+  ng-style="{backgroundImage: 'url('+$ctrl.getDocMetadata($ctrl.metadata.languages.es).thumbnail.imageUrl+')'}")
   md-card-title
-    md-card-title-text
+    md-card-title-media(
+    flex="nogrow"
+    hide-gt-sm
+    ng-show="$ctrl.getDocMetadata($ctrl.metadata.languages.es).thumbnail.imageUrl")
+      .md-media-md.card-media.icon-controls-wrapper.backgroundImageCover(
+      ng-style="{backgroundImage: 'url('+$ctrl.getDocMetadata($ctrl.metadata.languages.es).thumbnail.imageUrl+')'}")
+    div(flex="5"
+    hide-gt-sm
+    ng-show="$ctrl.getDocMetadata($ctrl.metadata.languages.es).thumbnail.imageUrl")
+    md-card-title-text(flex)
       a.md-headline(ng-click="$ctrl.edit()")
         |{{$ctrl.getDocMetadata($ctrl.metadata.languages.es).title}}
-      .md-body-1
-        |{{$ctrl.getDocMetadata($ctrl.metadata.languages.es).description}}
-      br
-      .md-body-1|{{$ctrl.metadata.description[$ctrl.Lang.$current]}}
+      .md-body-1(ng-bind-html="$ctrl.$html($ctrl.getDocMetadata($ctrl.metadata.languages.es).description)")
   div(layout="row" layout-align="start" layout-padding)
+    
+    // Remove
+    md-button.md-icon-button.md-primary(
+    md-theme="db-light-btn"
+    ng-disabled="$ctrl.isDisabled"
+    ng-click="$ctrl.remove()")
+      i.material-icons|delete
+    
+    div(flex)
     
     // Archive - Unarchive
     md-button.md-icon-button.md-hue-2.md-primary(
@@ -23,18 +42,15 @@ md-card(md-theme="dashboard")
     ng-show="$ctrl.metadata.isArchived")
       i.material-icons|unarchive
     
+    // Link
+    md-button.md-icon-button.md-primary.md-hue-2(
+    ng-disabled="$ctrl.isDisabled"
+    ng-click="$ctrl.link()")
+      i.material-icons|link
+    
     // Edit
-    md-button.md-icon-button.md-primary(
-    md-theme="db-light-btn"
+    md-button.md-icon-button.md-primary.md-hue-2(
     ng-disabled="$ctrl.isDisabled"
     ng-click="$ctrl.edit()")
       i.material-icons|edit
-      
-    div(flex)
     
-    // Remove
-    md-button.md-icon-button.md-primary(
-    md-theme="db-light-btn"
-    ng-disabled="$ctrl.isDisabled"
-    ng-click="$ctrl.remove()")
-      i.material-icons|delete

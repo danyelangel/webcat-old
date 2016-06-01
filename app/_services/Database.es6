@@ -5,13 +5,28 @@
       this.database = Firebase.firebase.database();
       this.rootRef = this.database.ref();
     }
+    getOnce(ref) {
+      return new Promise((resolve, reject) => {
+        ref.once('value')
+          .then((snapshot) => {
+            resolve(snapshot.val());
+          })
+          .catch(reject);
+      });
+    }
     watch(ref, callback) {
-      ref.once('value').then((snapshot) => {
+      ref.once('value').then(cb);
+      ref.on('value', cb);
+      return {
+        ref: ref,
+        cb: cb
+      };
+      function cb(snapshot) {
         callback(snapshot.val());
-      });
-      ref.on('value', (snapshot) => {
-        callback(snapshot.val());
-      });
+      }
+    }
+    unwatch(ref, cb) {
+      ref.off('value', cb);
     }
     set(ref, data) {
       return ref.set(data);

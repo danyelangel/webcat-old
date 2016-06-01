@@ -5,9 +5,16 @@
     margin: 0;
   }
 }
+.medium-editor-placeholder:after {
+  position: relative;
+  color: #212121;
+  opacity: .5;
+  font-style: normal;
+}
 body {
   overflow: hidden;
   background-color: #F5F5F5;
+  font-family: 'Lato', sans-serif;
 }
 md-content {
   width: 100%;

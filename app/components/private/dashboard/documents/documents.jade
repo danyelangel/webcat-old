@@ -10,10 +10,11 @@
   // Unarchived
   md-toolbar
     .md-toolbar-tools
+      .md-body-1|{{$ctrl.$l('PUBLISHED')}}
+      div(flex)
       md-button.md-icon-button.md-accent(
       ng-click="$ctrl.hideUnarchived = !$ctrl.hideUnarchived")
         md-icon|{{$ctrl.hideUnarchived?'add':'remove'}}
-      .md-body-1|{{$ctrl.$l('PUBLISHED')}}
   div(layout="row" layout-wrap ng-hide="$ctrl.hideUnarchived")
     dashboard-document(
     flex-gt-sm="33"
@@ -30,10 +31,11 @@
   // Archived  
   md-toolbar
     .md-toolbar-tools
+      .md-body-1|{{$ctrl.$l('UNPUBLISHED')}}
+      div(flex)
       md-button.md-icon-button.md-accent(
       ng-click="$ctrl.hideArchived = !$ctrl.hideArchived")
         md-icon|{{$ctrl.hideArchived?'add':'remove'}}
-      .md-body-1|{{$ctrl.$l('UNPUBLISHED')}}
   div(layout="row" layout-wrap ng-hide="$ctrl.hideArchived")
     dashboard-document(
     flex-gt-sm="33"

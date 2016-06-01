@@ -1,8 +1,9 @@
 (function () {
   'use strict';
   class Controller {
-    constructor(DashboardDocumentLbl, Label, DocumentState) {
+    constructor(DashboardDocumentLbl, Label, DocumentState, Sanitize) {
       this.$l = Label.$l(DashboardDocumentLbl);
+      this.$html = Sanitize.$html();
       this.DocumentState = DocumentState;
     }
     getDocMetadata(docId) {
