@@ -1,3 +1,8 @@
 landing-nav
-landing-body
-landing-footer
+div(flex)
+  wc-render-splash(
+  metadata="$ctrl.doc.metadata")
+  wc-render-sections(
+  doc="$ctrl.doc")
+wc-render-footer(
+metadata="$ctrl.doc.metadata")

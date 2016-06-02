@@ -2,6 +2,9 @@
   outline: none;
   user-select: text;
   margin: 0;
+  p {
+    margin: 0;
+  }
 }
 .medium-editor-placeholder:after {
   position: relative;

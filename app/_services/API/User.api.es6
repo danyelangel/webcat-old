@@ -7,13 +7,11 @@
       this.Database = Database;
       this.Image = Image;
     }
-    login(provider) {
-      console.log(provider);
-      let email = 'danyelangel@gmail.com',
-          password = 'dani1234';
+    login() {
+      let provider = new this.firebase.auth.FacebookAuthProvider();
       this.firebase
         .auth()
-        .signInWithEmailAndPassword(email, password);
+        .signInWithPopup(provider);
     }
     onAuth(callback) {
       this.firebase

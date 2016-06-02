@@ -4,8 +4,8 @@
   angular
     .module('webcat')
     .value('$routerRootComponent', 'rootEl')
-    .config(($locationProvider) => {
-      $locationProvider.html5Mode(true);
+    .config(function ($locationProvider) {
+      $locationProvider.html5Mode(false);
     })
     .component('rootEl', {
       template: '<ng-outlet></ng-outlet>',

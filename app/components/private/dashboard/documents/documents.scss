@@ -2,16 +2,17 @@ dashboard-documents {
   display: flex;
   flex-direction: column;
   align-items: center;
-  a.md-headline {
+  a.md-title {
     cursor: pointer;
     margin-bottom: 0.5em;
   }
-  a.md-headline:hover {
+  a.md-title:hover {
     text-decoration: underline;
   }
   md-card-title-text {
     position: relative;
     width: 100%;
+    min-height: 26px;
   }
   .md-body-1 {
     width: 100%;

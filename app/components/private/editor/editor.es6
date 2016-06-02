@@ -1,7 +1,7 @@
 (function () {
   'use strict';
   class Controller {
-    constructor(UserActions, TaoState, DocumentState, $scope, DocumentActions) {
+    constructor(UserActions, TaoState, DocumentState, $scope, DocumentActions, $anchorScroll) {
       this.UserActions = UserActions;
       this.UserActions.onUnauth(() => {
         this.$router.navigate(['Landing']);
@@ -10,11 +10,13 @@
       this.TaoState = TaoState;
       this.DocumentState = DocumentState;
       this.DocumentActions = DocumentActions;
+      this.$anchorScroll = $anchorScroll;
       this.getDoc();
     }
     $routerOnActivate(next) {
       let taoId = next.params.taoId;
       this.tao = this.TaoState.getTao(taoId);
+      this.$anchorScroll('scrollTop');
     }
     $routerOnDeactivate() {
       this.DocumentState.cleanUp();

@@ -1,11 +1,15 @@
 (function () {
   'use strict';
   class Controller {
-    constructor(UserActions) {
+    constructor(UserActions, $anchorScroll) {
       this.UserActions = UserActions;
       this.UserActions.onUnauth(() => {
         this.$router.navigate(['Landing']);
       });
+      this.$anchorScroll = $anchorScroll;
+    }
+    $routerOnActivate() {
+      this.$anchorScroll('scrollTop');
     }
   }
   angular

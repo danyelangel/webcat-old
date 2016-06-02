@@ -1,21 +1,21 @@
 // Card View
 md-card(md-theme="dashboard" layout="column")
   .topImg(
-  ng-show="$ctrl.getDocMetadata($ctrl.metadata.languages.es).thumbnail.imageUrl"
+  ng-click="$ctrl.edit()"
   hide
   show-gt-sm
-  ng-style="{backgroundImage: 'url('+$ctrl.getDocMetadata($ctrl.metadata.languages.es).thumbnail.imageUrl+')'}")
+  ng-style="{backgroundImage: 'url('+($ctrl.getDocMetadata($ctrl.metadata.languages.es).thumbnail.imageUrl ? $ctrl.getDocMetadata($ctrl.metadata.languages.es).thumbnail.imageUrl : 'https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/assets%2Fdefault-placeholder.png?alt=media&token=b1183b4f-05c2-476c-a656-1f2250adf46f')+')'}")
   md-card-title
     md-card-title-media(
     flex="nogrow"
     hide-gt-sm)
-      .md-media-md.card-media.icon-controls-wrapper.backgroundImageCover(
+      .md-media-sm.card-media.icon-controls-wrapper.backgroundImageCover(
       ng-style="{backgroundImage: 'url('+($ctrl.getDocMetadata($ctrl.metadata.languages.es).thumbnail.imageUrl ? $ctrl.getDocMetadata($ctrl.metadata.languages.es).thumbnail.imageUrl : 'https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/assets%2Fdefault-placeholder.png?alt=media&token=b1183b4f-05c2-476c-a656-1f2250adf46f')+')'}")
     div(flex="5"
     hide-gt-sm)
     md-card-title-text(flex)
       div(style="width: 100%; position: absolute")
-        a.md-headline.capitalize(ng-click="$ctrl.edit()")
+        a.md-title.capitalize(ng-click="$ctrl.edit()")
           |{{$ctrl.getDocMetadata($ctrl.metadata.languages.es).title}}
         .md-body-1(ng-bind-html="$ctrl.$html($ctrl.getDocMetadata($ctrl.metadata.languages.es).description)")
   div(layout="row" layout-align="start" layout-padding)

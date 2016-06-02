@@ -15,7 +15,7 @@
       });
     $mdThemingProvider.theme('db-light')
       .primaryPalette('grey', {
-        default: '50'
+        default: '100'
       })
       .accentPalette('blue', {
         default: '500'
