@@ -11,7 +11,7 @@
       let provider = new this.firebase.auth.FacebookAuthProvider();
       this.firebase
         .auth()
-        .signInWithPopup(provider);
+        .signInWithRedirect(provider);
     }
     onAuth(callback) {
       this.firebase
