@@ -1,5 +1,5 @@
-.editorWrapper {
-  height: 100%;
+wc-editor {
+  display: block;
 }
 .centerText {
   text-align: center;
@@ -17,4 +17,13 @@ edit-toolbar {
 }
 md-icon.menu-right {
   margin: auto 3px auto 0 !important;
+}
+.hidden-input {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 5;
+  opacity: 0;
 }

@@ -10,7 +10,9 @@
       this.onSectionUpdate()(this.section);
     }
     uploadImage(file) {
-      this.onSectionImageUpload()(file);
+      if (file) {
+        this.onSectionImageUpload()(file);
+      }
     }
     removeImage() {
       this.section.display.hasBackgroundImage = false;

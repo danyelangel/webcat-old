@@ -7,27 +7,6 @@
       ng-click="$ctrl.addTao()")
         |{{$ctrl.$l('NEW_DOCUMENT')}}
   
-  // Unarchived
-  md-toolbar
-    .md-toolbar-tools
-      .md-body-1|{{$ctrl.$l('PUBLISHED')}}
-      div(flex)
-      md-button.md-icon-button.md-accent(
-      ng-click="$ctrl.hideUnarchived = !$ctrl.hideUnarchived")
-        md-icon|{{$ctrl.hideUnarchived?'add':'remove'}}
-  div(layout="row" layout-wrap ng-hide="$ctrl.hideUnarchived")
-    dashboard-document(
-    flex-gt-sm="33"
-    flex-gt-xs="50"
-    flex-xs="100"
-    is-disabled="$ctrl.isDisabled"
-    ng-repeat="(key, value) in $ctrl.UserState.userTaos"
-    metadata="$ctrl.getTao(key)"
-    on-remove="$ctrl.removeTao(key)"
-    on-archive = "$ctrl.archiveTao(key)"
-    on-edit="$ctrl.editTao(key)"
-    ng-if="!$ctrl.getTao(key).isArchived")
-    
   // Archived  
   md-toolbar
     .md-toolbar-tools
@@ -42,11 +21,34 @@
     flex-gt-xs="50"
     flex-xs="100"
     is-disabled="$ctrl.isDisabled"
-    ng-repeat="(key, value) in $ctrl.UserState.userTaos"
-    metadata="$ctrl.getTao(key)"
-    on-remove="$ctrl.removeTao(key)"
-    on-unarchive = "$ctrl.unarchiveTao(key)"
-    on-edit="$ctrl.editTao(key)"
-    ng-if="$ctrl.getTao(key).isArchived")
+    ng-repeat="(taoId, value) in $ctrl.UserState.userTaos"
+    metadata="$ctrl.getTao(taoId)"
+    tao-id="taoId"
+    on-remove="$ctrl.removeTao(taoId)"
+    on-unarchive = "$ctrl.unarchiveTao(taoId)"
+    on-edit="$ctrl.editTao(taoId)"
+    ng-if="$ctrl.getTao(taoId).isArchived")
+  
+  // Unarchived
+  md-toolbar
+    .md-toolbar-tools
+      .md-body-1|{{$ctrl.$l('PUBLISHED')}}
+      div(flex)
+      md-button.md-icon-button.md-accent(
+      ng-click="$ctrl.hideUnarchived = !$ctrl.hideUnarchived")
+        md-icon|{{$ctrl.hideUnarchived?'add':'remove'}}
+  div(layout="row" layout-wrap ng-hide="$ctrl.hideUnarchived")
+    dashboard-document(
+    flex-gt-sm="33"
+    flex-gt-xs="50"
+    flex-xs="100"
+    is-disabled="$ctrl.isDisabled"
+    ng-repeat="(taoId, value) in $ctrl.UserState.userTaos"
+    tao-id="taoId"
+    metadata="$ctrl.getTao(taoId)"
+    on-remove="$ctrl.removeTao(taoId)"
+    on-archive = "$ctrl.archiveTao(taoId)"
+    on-edit="$ctrl.editTao(taoId)"
+    ng-if="!$ctrl.getTao(taoId).isArchived")
     
     

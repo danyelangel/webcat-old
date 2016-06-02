@@ -4,6 +4,9 @@
   angular
     .module('webcat')
     .value('$routerRootComponent', 'rootEl')
+    .config(($locationProvider) => {
+      $locationProvider.html5Mode(true);
+    })
     .component('rootEl', {
       template: '<ng-outlet></ng-outlet>',
       $routeConfig: [
@@ -20,7 +23,7 @@
           component: 'profileEl'
         },
         {
-          path: '/r/:docId',
+          path: '/r/:taoId',
           name: 'WebcatRender',
           component: 'wcRender'
         },

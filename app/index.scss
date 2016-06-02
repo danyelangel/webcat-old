@@ -1,9 +1,7 @@
 [contenteditable], [contenteditable]:focus {
-  outline: 0px solid transparent;
-  z-index: 1;
-  p {
-    margin: 0;
-  }
+  outline: none;
+  user-select: text;
+  margin: 0;
 }
 .medium-editor-placeholder:after {
   position: relative;
@@ -12,9 +10,18 @@
   font-style: normal;
 }
 body {
-  overflow: hidden;
   background-color: #F5F5F5;
   font-family: 'Lato', sans-serif;
+}
+html::-webkit-scrollbar {
+  -webkit-appearance: none;
+  background: transparent;
+  width: 6px;
+  height: 6px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #666;
 }
 md-content {
   width: 100%;

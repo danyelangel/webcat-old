@@ -4,10 +4,8 @@
     min-height: 100vh;
   }
   overflow: hidden;
-  .image, .text, .section-toolbar {
-    z-index: 2;
-  }
   .image, .text {
+    z-index: 2;
     position: relative;
     padding: 0;
   }
@@ -61,10 +59,6 @@
   .background-image {
     opacity: .85;
   }
-  .section-toolbar {
-    display: block;
-    height: 38px;
-  }
   .image-caption {
     margin-top: 1em;
     opacity: .5;
@@ -82,12 +76,6 @@
   .image-caption {
     color: #fff;
     border-bottom-color: rgba(255,255,255,.25);
-  }
-  .medium-editor-placeholder:after {
-    position: relative;
-    color: #fff;
-    opacity: .5;
-    font-style: normal;
   }
 }
 .section-wrapper.section-image-background {

@@ -13,6 +13,7 @@
       'tao',
       'landing',
       'dashboard',
-      'webcatEditor'
+      'webcatEditor',
+      'webcatRender'
     ]);
 }());

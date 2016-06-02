@@ -7,7 +7,9 @@
       $mdOpenMenu(ev);
     }
     uploadImage(file) {
-      this.onImageUpload()(file);
+      if (file) {
+        this.onImageUpload()(file);
+      }
     }
     removeImage() {
       this.onImageRemove()();

@@ -1,0 +1,11 @@
+.renderWrapper(layout="column")
+  wc-render-nav(
+  tao="$ctrl.tao" 
+  doc="$ctrl.doc")
+  div(flex)
+    wc-render-splash(
+    metadata="$ctrl.doc.metadata")
+    wc-render-sections(
+    doc="$ctrl.doc")
+  wc-render-footer(
+  metadata="$ctrl.doc.metadata")

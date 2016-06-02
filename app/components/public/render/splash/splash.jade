@@ -1,0 +1,26 @@
+.splash-wrapper(
+layout="column" 
+layout-align="center center" 
+ng-class="{'splash-dark':!$ctrl.metadata.display.isBright}")
+  
+  .container(
+  layout="row" 
+  layout-align="center center")
+    .text(
+    layout="column"
+    layout-align="center center"
+    flex="90"
+    flex-sm="80"
+    flex-gt-sm="45")
+      .md-display-1.centerText(
+      ng-bind="$ctrl.metadata.title")
+      
+      .separator
+      
+      .md-headline.centerText(
+      ng-bind-html="$ctrl.$s($ctrl.metadata.description)")
+      
+      
+  .background(
+  ng-style="{backgroundImage: 'url('+$ctrl.metadata.thumbnail.imageUrl+')'}"
+  ng-class="{'background-blur': $ctrl.metadata.display.hasBackgroundBlur}")

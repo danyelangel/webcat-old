@@ -1,12 +1,15 @@
+wc-editor-splash {
+  display: block;
+  z-index: 2;
+}
 .splash-wrapper {
   position: relative;
   min-height: 100vh;
   overflow: hidden;
-  .text, .section-toolbar {
-    z-index: 1;
-  }
+  z-index: 1;
   .text {
     color: #212121;
+    z-index: 3;
     .md-display-1 {
       font-weight: 700;
       text-transform: uppercase;
@@ -40,10 +43,12 @@
     opacity: .85;
   }
   .section-toolbar {
+    display: block;
+    z-index: 2;
     height: 38px;
   }
   .background-blur {
-    transform: scale(1.15);
+    transform: scale(1.2);
     filter: blur(8px);
     opacity: .75;
   }

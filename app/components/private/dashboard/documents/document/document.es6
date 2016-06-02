@@ -31,6 +31,7 @@
       controller: Controller,
       bindings: {
         metadata: '<',
+        taoId: '<',
         isDisabled: '<',
         onRemove: '&',
         onEdit: '&',

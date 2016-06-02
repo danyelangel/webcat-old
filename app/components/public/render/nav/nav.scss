@@ -1,0 +1,11 @@
+wc-render-nav {
+  width: 100%;
+  display: block;
+  md-toolbar.placeholder {
+    opacity: 0;
+  }
+  md-toolbar.nav {
+    position: fixed;
+    z-index: 5;
+  }
+}

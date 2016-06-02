@@ -5,12 +5,15 @@ ng-class="{'splash-dark':!$ctrl.metadata.display.isBright}")
   .section-toolbar(ng-hide="$ctrl.isPreview")
     edit-toolbar(ng-hide="$ctrl.isPreview")
       md-button.md-icon-button(
-      ng-show="!$ctrl.metadata.thumbnail.imageUrl"
-      ngf-select="$ctrl.uploadImage($file)"
-      ngf-multiple="false"
-      accept="image/*"
-      ngf-resize="{width: 1920, height: 1500}")
-        md-icon|photo
+      ng-show="!$ctrl.metadata.thumbnail.imageUrl")
+        input.hidden-input(
+        type="file"
+        ngf-select="$ctrl.uploadImage($file)"
+        ngf-multiple="false"
+        accept="image/*"
+        ngf-resize="{width: 1920, height: 1500}")
+        md-icon
+          |photo
       md-menu(
       md-position-mode="target-right target" 
       ng-hide="!$ctrl.metadata.thumbnail.imageUrl")
@@ -19,11 +22,13 @@ ng-class="{'splash-dark':!$ctrl.metadata.display.isBright}")
           md-icon(md-menu-origin)|photo
         md-menu-content(width="4")
           md-menu-item
-            md-button(
-            ngf-select="$ctrl.uploadImage($file)"
-            ngf-multiple="false"
-            accept="image/*"
-            ngf-resize="{width: 1920, height: 1500}")
+            md-button
+              input.hidden-input(
+              type="file"
+              ngf-select="$ctrl.uploadImage($file)"
+              ngf-multiple="false"
+              accept="image/*"
+              ngf-resize="{width: 1920, height: 1500}")
               div(layout="row" flex)
                 span(flex)|Update Image
                 md-icon.menu-right(md-menu-align-target)
@@ -56,10 +61,6 @@ ng-class="{'splash-dark':!$ctrl.metadata.display.isBright}")
                 span(flex)|{{$ctrl.metadata.display.isBright?'Dark Layout':'Bright Layout'}}
                 md-icon.menu-right(md-menu-align-target)|{{$ctrl.metadata.display.isBright?'brightness_3':'brightness_5'}}
   
-  .background(
-  ng-style="{backgroundImage: 'url('+$ctrl.metadata.thumbnail.imageUrl+')'}"
-  ng-class="{'background-blur': $ctrl.metadata.display.hasBackgroundBlur}")
-  
   .container(
   layout="row" 
   layout-align="center center")
@@ -84,3 +85,8 @@ ng-class="{'splash-dark':!$ctrl.metadata.display.isBright}")
       data-placeholder="Description"
       ng-model="$ctrl.metadata.description"
       ng-blur="$ctrl.update()")
+      
+      
+  .background(
+  ng-style="{backgroundImage: 'url('+$ctrl.metadata.thumbnail.imageUrl+')'}"
+  ng-class="{'background-blur': $ctrl.metadata.display.hasBackgroundBlur}")
