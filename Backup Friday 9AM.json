@@ -1,0 +1,446 @@
+{
+  "documents" : {
+    "-KJCvSpc5pvrsMU8J8c5" : {
+      "data" : {
+        "metadata" : {
+          "description" : "<p>Una cultura experimental es una cultura sin nombre</p>",
+          "display" : {
+            "hasBackgroundBlur" : false,
+            "isBright" : false
+          },
+          "footer" : "Made by Daniel Ángel",
+          "thumbnail" : {
+            "imageRef" : "images/-KJHBlcTbbOBvz91b-Cf",
+            "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJHBlcTbbOBvz91b-Cf?alt=media&token=2136c6ef-6ed2-474a-a40e-3e678319fb0a"
+          },
+          "title" : "cultura experimental"
+        },
+        "sections" : {
+          "-KJHCrF-xphbay_qHPcX" : {
+            "content" : {
+              "description" : "<p>La ciudad antigua es genial!!&nbsp;</p>",
+              "image" : {
+                "imageRef" : "images/-KJHCz-tFRSUwmoX0cDV",
+                "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJHCz-tFRSUwmoX0cDV?alt=media&token=9a791d7f-5bca-46c4-bde1-b4d64bf11994"
+              },
+              "title" : "Ciudad antigua"
+            },
+            "display" : {
+              "hasBackgroundBlur" : false,
+              "hasBackgroundImage" : true,
+              "isBright" : false
+            },
+            "priority" : 1,
+            "sectionId" : "-KJHCrF-xphbay_qHPcX"
+          }
+        }
+      },
+      "languageId" : "es",
+      "taoId" : "-KJCvSn6FzXbQlzdsXHR"
+    },
+    "-KJHRYGCAO0A_6d_l3bH" : {
+      "data" : {
+        "metadata" : {
+          "description" : "<p>Hi Ale, I've been waiting for you.&nbsp;</p><p>Here's an example of what butterflies look like:</p>",
+          "display" : {
+            "hasBackgroundBlur" : true,
+            "isBright" : false
+          },
+          "footer" : "Made with love by Daniel Ángel",
+          "thumbnail" : {
+            "imageRef" : "images/-KJHUt8dp2GBJUczONgs",
+            "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJHUt8dp2GBJUczONgs?alt=media&token=bcc398be-720b-4355-9deb-aa9fe2dfa632"
+          },
+          "title" : "Alejandra Dussan"
+        },
+        "sections" : {
+          "-KJHU-oZfqd4QFjnI1QQ" : {
+            "content" : {
+              "description" : "<p>These types of butterflies are specially amazing because they have the ability to fly with their wings.</p><p>They have 2 wings, one for each side of their bodies because if they only had one they would not be able to fly.</p><p>Nature is pretty smart though...</p><p>So they have 2.</p>",
+              "image" : {
+                "imageRef" : "images/-KJHU0z-SjZ_NZtLkIAY",
+                "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJHU0z-SjZ_NZtLkIAY?alt=media&token=10b8d44d-a230-4573-8e53-07722f83850d"
+              },
+              "imageCaption" : "So Pretty!!",
+              "title" : "Pretty butterly"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : true
+            },
+            "priority" : 1,
+            "sectionId" : "-KJHU-oZfqd4QFjnI1QQ"
+          },
+          "-KJHUIl2xD4tao5ML9PD" : {
+            "content" : {
+              "description" : "<p>These butterflies have the special ability to be ugly. They are found in many places, specially among ugly people and ugly animals or ugly places too.</p><p>They are usually found on ugly days when ugly people feel like shit.</p><p>They also have 2 wings.</p>",
+              "image" : {
+                "imageRef" : "images/-KJHUdRxRPBBh0_OOrCE",
+                "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJHUdRxRPBBh0_OOrCE?alt=media&token=362b9cf5-2542-444a-a88e-3220d2c97b49"
+              },
+              "imageCaption" : "So ugly!!!&nbsp;",
+              "title" : "Ugly butterfly"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : false
+            },
+            "priority" : 2,
+            "sectionId" : "-KJHUIl2xD4tao5ML9PD"
+          }
+        }
+      },
+      "languageId" : "es",
+      "taoId" : "-KJHRYEOvIXxYIRPOz0L"
+    },
+    "-KJIXWb8tXFCswxOkrJY" : {
+      "data" : {
+        "metadata" : {
+          "description" : "<p>Hola</p>",
+          "display" : {
+            "hasBackgroundBlur" : true,
+            "isBright" : true
+          },
+          "footer" : "Hola",
+          "thumbnail" : {
+            "imageRef" : "images/-KJIY3Zueul86PjfjthM",
+            "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJIY3Zueul86PjfjthM?alt=media&token=b37fceef-7e7b-40c7-940e-86c203b0d1d1"
+          },
+          "title" : "Hola"
+        },
+        "sections" : {
+          "-KJIXZvP1az22gVthr10" : {
+            "content" : {
+              "image" : {
+                "imageRef" : "images/-KJIYGIbd1EMJgL36EqW",
+                "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJIYGIbd1EMJgL36EqW?alt=media&token=feeed869-4d52-4e53-9a41-42370052c185"
+              }
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : true,
+              "isBright" : true
+            },
+            "priority" : 1,
+            "sectionId" : "-KJIXZvP1az22gVthr10"
+          }
+        }
+      },
+      "languageId" : "es",
+      "taoId" : "-KJIXWYjt2B6h9U6PTvY"
+    },
+    "-KJIXZ8_ULSVRfopzWEF" : {
+      "data" : {
+        "metadata" : {
+          "description" : "<p><br></p>",
+          "display" : {
+            "hasBackgroundBlur" : true,
+            "isBright" : false
+          },
+          "title" : "IndependEncia"
+        },
+        "sections" : {
+          "-KJIamTx_gL6cAtwKsXo" : {
+            "content" : {
+              "description" : "<p>Tanto el rechazo, como la culpa y el abandono son emociones madre de las cuales se desprende una gran cantidad de emociones que llamamos de baja vibración &nbsp;por que nos llevan al sufrimiento.</p>",
+              "title" : "Emociones"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : true
+            },
+            "priority" : 1,
+            "sectionId" : "-KJIamTx_gL6cAtwKsXo"
+          },
+          "-KJIb5QLXMcKE1QPY7Vw" : {
+            "content" : {
+              "description" : "Todos en muchos momentos de nuestra vida nos sentimos rechazados de niños por nuestros padres, hermanos, compañeros del colegio, vecinos, en fin, y todos estos rechazos van quedando en nuestra memoria emocional, haciendo parte de nuestro sistema de creencias.",
+              "title" : "Rechazo"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : true
+            },
+            "priority" : 2,
+            "sectionId" : "-KJIb5QLXMcKE1QPY7Vw"
+          },
+          "-KJIbcz0328wI5k36pbp" : {
+            "content" : {
+              "description" : "<p>Es todo lo que nos creímos de niños cuando nos dijeron por ejemplo que no servíamos para nada, o que éramos tontos, o egoístas y un sinnúmero de calificativos; al igual que cuando nos decían que si hacíamos tal o cual cosa nos iba a pasar lo otro.</p>",
+              "title" : "Sistema de creencias"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : true
+            },
+            "priority" : 3,
+            "sectionId" : "-KJIbcz0328wI5k36pbp"
+          },
+          "-KJIcQPGOQGdJCqkNmJs" : {
+            "content" : {
+              "description" : "<p>Una vez tomamos como ciertas esas creencias, hicimos contratos con ellas para no volver a sufrir.</p><p><br></p><p><br></p>",
+              "title" : "Contratos"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : true
+            },
+            "priority" : 4,
+            "sectionId" : "-KJIcQPGOQGdJCqkNmJs"
+          },
+          "-KJIdeIauLbFP0v5yko8" : {
+            "content" : {
+              "description" : "<p><i>A cambio de que no me regañaran. ese fue el contrato que hice con esa creencia, en otras palabras, a cambio de que me aceptaran, de que no me rechazaran.</i></p>",
+              "title" : "A cambio de"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : true
+            },
+            "priority" : 5,
+            "sectionId" : "-KJIdeIauLbFP0v5yko8"
+          },
+          "-KJIdyHyD14DkDF3ppxj" : {
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : true
+            },
+            "priority" : 6,
+            "sectionId" : "-KJIdyHyD14DkDF3ppxj"
+          },
+          "-KJIrvdlDoLkZ5WQXvkY" : {
+            "content" : {
+              "description" : "<p><i>Cuando niña me regañaban porque lloraba si me caía, me decían que yo tenía que aprender a ser fuerte, que dejara de ser llorona. La decisión que tomé entonces fue no llorar ante ninguna circunstancia.</i></p>",
+              "title" : "<br>"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : true
+            },
+            "priority" : 4.5,
+            "sectionId" : "-KJIrvdlDoLkZ5WQXvkY"
+          }
+        }
+      },
+      "languageId" : "es",
+      "taoId" : "-KJIXZ5bW0LcvAzDUTyi"
+    },
+    "-KJIrcOJicPFG4QCb3QU" : {
+      "data" : {
+        "metadata" : {
+          "description" : "<p>Cultura Exp. erimental</p>",
+          "display" : {
+            "hasBackgroundBlur" : true,
+            "isBright" : true
+          },
+          "title" : "Cultura Experimental"
+        }
+      },
+      "languageId" : "es",
+      "taoId" : "-KJIrcKQPX6eexd21dyy"
+    },
+    "landingPage" : {
+      "data" : {
+        "metadata" : {
+          "description" : "<p>Crea documentos elegantes y simples en minutos sin tener que diseñar nada.</p><p>Añade texto e imágenes y observa la magia de Webcat.</p>",
+          "display" : {
+            "hasBackgroundBlur" : true,
+            "isBright" : false
+          },
+          "footer" : "Crea tu cuenta haciendo click en el botón de arriba.",
+          "thumbnail" : {
+            "imageRef" : "images/-KJHmc5bM0D1DwVJ85KU",
+            "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJHmc5bM0D1DwVJ85KU?alt=media&token=a750c3f8-83b2-4e71-a002-b3d6e37c8df3"
+          },
+          "title" : "Webcat"
+        },
+        "sections" : {
+          "-KJHmmSwqo61Lp49ARuL" : {
+            "content" : {
+              "description" : "<p>Garantizamos que cada página web funcionará de manera óptima en <b>cualquier</b> <b>dispositivo</b>, independientemente de su tamaño.</p><p><br></p><p>Ten la tranquilidad de que tu página se verá de la mejor manera, ya sea en un celular, tablet, computador o hasta un televisor.</p>",
+              "image" : {
+                "imageRef" : "images/-KJHnWCHcaqVIp2a8Nds",
+                "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJHnWCHcaqVIp2a8Nds?alt=media&token=b14e85db-b5ef-41ce-9a2f-3b0fda701495"
+              },
+              "title" : "Multiplataforma"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : true
+            },
+            "priority" : 1,
+            "sectionId" : "-KJHmmSwqo61Lp49ARuL"
+          },
+          "-KJHo4zVd6IEHYnf8j0u" : {
+            "content" : {
+              "description" : "<p>Cada página web es un nuevo proyecto programado desde ceros con los últimos estándares de calidad y compatibilidad para los navegadores más comunes.&nbsp;</p><p><br></p><p>Soportamos:</p><p>Chrome</p><p>Safari</p><p>Firefox</p><p>Internet Explorer</p>",
+              "image" : {
+                "imageRef" : "images/-KJHoH2GDQvbWoQsLZvU",
+                "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJHoH2GDQvbWoQsLZvU?alt=media&token=887f3d4a-7432-42d3-8418-dbf1b1f7d6b7"
+              },
+              "title" : "Compatibles"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : true
+            },
+            "priority" : 2,
+            "sectionId" : "-KJHo4zVd6IEHYnf8j0u"
+          }
+        }
+      },
+      "languageId" : "es",
+      "taoId" : "landingPage"
+    }
+  },
+  "languages" : {
+    "es" : true
+  },
+  "taos" : {
+    "-KJCvSn6FzXbQlzdsXHR" : {
+      "collaborators" : {
+        "ddzFcRoWteeTIh5wGK7r0fIknXl1" : true
+      },
+      "isArchived" : false,
+      "languages" : {
+        "es" : "-KJCvSpc5pvrsMU8J8c5"
+      },
+      "token" : "-KJCvSn5B5OQ3eLZUdB3"
+    },
+    "-KJHRYEOvIXxYIRPOz0L" : {
+      "collaborators" : {
+        "ddzFcRoWteeTIh5wGK7r0fIknXl1" : true
+      },
+      "isArchived" : false,
+      "languages" : {
+        "es" : "-KJHRYGCAO0A_6d_l3bH"
+      },
+      "token" : "-KJHRYEOvIXxYIRPOz0K"
+    },
+    "-KJIXWYjt2B6h9U6PTvY" : {
+      "collaborators" : {
+        "X1NrvY5CWoYXRGFuKdGa1XDNAFJ3" : true
+      },
+      "isArchived" : true,
+      "languages" : {
+        "es" : "-KJIXWb8tXFCswxOkrJY"
+      },
+      "token" : "-KJIXWYicYwkgCBUf1JJ"
+    },
+    "-KJIXZ5bW0LcvAzDUTyi" : {
+      "collaborators" : {
+        "uxyklwRRWyaigR0nFSGt8WfXCHi2" : true
+      },
+      "isArchived" : true,
+      "languages" : {
+        "es" : "-KJIXZ8_ULSVRfopzWEF"
+      },
+      "token" : "-KJIXZ5ao6ug_Y0v7BZN"
+    },
+    "-KJIrcKQPX6eexd21dyy" : {
+      "collaborators" : {
+        "c0flFBgqOwRUABWrsGSQp0VCaCz2" : true
+      },
+      "isArchived" : true,
+      "languages" : {
+        "es" : "-KJIrcOJicPFG4QCb3QU"
+      },
+      "token" : "-KJIrcKPeplb8-8sDxWe"
+    },
+    "landingPage" : {
+      "collaborators" : {
+        "ddzFcRoWteeTIh5wGK7r0fIknXl1" : true
+      },
+      "isArchived" : false,
+      "languages" : {
+        "es" : "landingPage"
+      },
+      "token" : "-KJHmBvlSZrtffZPonrg"
+    }
+  },
+  "users" : {
+    "X1NrvY5CWoYXRGFuKdGa1XDNAFJ3" : {
+      "private" : {
+        "tokens" : {
+          "-KJIXWYjt2B6h9U6PTvY" : "-KJIXWYicYwkgCBUf1JJ"
+        }
+      },
+      "public" : {
+        "profile" : {
+          "name" : "Juan"
+        },
+        "taos" : {
+          "-KJIXWYjt2B6h9U6PTvY" : true
+        }
+      }
+    },
+    "c0flFBgqOwRUABWrsGSQp0VCaCz2" : {
+      "private" : {
+        "tokens" : {
+          "-KJIrcKQPX6eexd21dyy" : "-KJIrcKPeplb8-8sDxWe"
+        }
+      },
+      "public" : {
+        "profile" : {
+          "description" : "<p><br></p>",
+          "location" : "Bogotá, Colombia",
+          "name" : "Daniel Ángel"
+        },
+        "taos" : {
+          "-KJIrcKQPX6eexd21dyy" : true
+        }
+      }
+    },
+    "ddzFcRoWteeTIh5wGK7r0fIknXl1" : {
+      "private" : {
+        "tokens" : {
+          "-KJCvSn6FzXbQlzdsXHR" : "-KJCvSn5B5OQ3eLZUdB3",
+          "-KJHRYEOvIXxYIRPOz0L" : "-KJHRYEOvIXxYIRPOz0K",
+          "landingPage" : "-KJHmBvlSZrtffZPonrg"
+        }
+      },
+      "public" : {
+        "profile" : {
+          "avatar" : {
+            "imageRef" : "images/-KJBujYgCdimNa-MihLh",
+            "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJBujYgCdimNa-MihLh?alt=media&token=73a70d50-addb-4f39-b05f-ffd0150cbda1"
+          },
+          "description" : "<p>Me encanta escribir este tipo de bobadas, gracias gracias vida por permitirme escribir esto...</p>",
+          "location" : "Bogotá, Colombia",
+          "name" : "Daniel Ángel"
+        },
+        "taos" : {
+          "-KJCvSn6FzXbQlzdsXHR" : true,
+          "-KJHRYEOvIXxYIRPOz0L" : true,
+          "landingPage" : true
+        }
+      }
+    },
+    "uxyklwRRWyaigR0nFSGt8WfXCHi2" : {
+      "private" : {
+        "tokens" : {
+          "-KJIXZ5bW0LcvAzDUTyi" : "-KJIXZ5ao6ug_Y0v7BZN"
+        }
+      },
+      "public" : {
+        "profile" : {
+          "name" : "Cristina"
+        },
+        "taos" : {
+          "-KJIXZ5bW0LcvAzDUTyi" : true
+        }
+      }
+    }
+  }
+}
