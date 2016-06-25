@@ -5,18 +5,8 @@ layout-align-gt-sm="center center"
 ng-class="{'section-dark':!$ctrl.section.display.isBright, 'section-image-background': $ctrl.section.display.hasBackgroundImage || !$ctrl.section.content.image.imageUrl}")
   .section-toolbar(ng-hide="$ctrl.isPreview")
     edit-toolbar
-      md-button.md-icon-button(
-      ng-show="!$ctrl.section.content.image.imageUrl")
-        input.hidden-input(
-        type="file"
-        ngf-select="$ctrl.uploadImage($file)"
-        ngf-multiple="false"
-        accept="image/*"
-        ngf-resize="{width: 1920, height: 1500}")
-        md-icon|photo
       md-menu(
-      md-position-mode="target-right target" 
-      ng-hide="!$ctrl.section.content.image.imageUrl")
+      md-position-mode="target-right target")
         md-button.md-icon-button(
         ng-click="$ctrl.openMenu($mdOpenMenu, $event)")
           md-icon(md-menu-origin)|photo
@@ -30,9 +20,16 @@ ng-class="{'section-dark':!$ctrl.section.display.isBright, 'section-image-backgr
               accept="image/*"
               ngf-resize="{width: 1920, height: 1500}")
               div(layout="row" flex)
-                span(flex)|Update Image
+                span(flex)|Upload Image
                 md-icon.menu-right(md-menu-align-target)
                   |photo
+                  
+          md-menu-item
+            md-button(
+            ng-click="$ctrl.addYoutube()")
+              span(flex)|Youtube Video
+              md-icon.menu-right(md-menu-align-target)
+                |movie
                   
           md-menu-item
             md-button(
@@ -93,7 +90,7 @@ ng-class="{'section-dark':!$ctrl.section.display.isBright, 'section-image-backgr
       ng-model="$ctrl.section.content.title"
       ng-blur="$ctrl.update()")
 
-      .separator(ng-show="$ctrl.section.content.title")
+      .separator(ng-show="$ctrl.section.content.title && $ctrl.section.content.description")
 
       .md-title(
       medium-editor 
@@ -120,7 +117,19 @@ ng-class="{'section-dark':!$ctrl.section.display.isBright, 'section-image-backgr
       edit-toolbar(ng-hide="$ctrl.isPreview")
         md-button.md-icon-button(ng-click="$ctrl.removeImage()")
           md-icon|remove_circle
+          
+    .image(
+    ng-if="$ctrl.section.content.youtube.url && !$ctrl.section.content.image.imageUrl"
+    flex="90"
+    flex-sm="80"
+    flex-gt-sm="45"
+    flex-order="1"
+    flex-order-gt-sm="2")
+      a(
+      ob-lazytube=""
+      href="{{$ctrl.section.content.youtube.url}}")
+
     
   .background(
-  ng-style="{backgroundImage: 'url('+$ctrl.section.content.image.imageUrl+')'}"
+  ng-style="{backgroundImage: 'url('+($ctrl.section.content.image.imageUrl||$ctrl.section.content.youtube.thumbnail)+')'}"
   ng-class="{'background-blur': $ctrl.section.display.hasBackgroundBlur, 'background-image': $ctrl.section.display.hasBackgroundImage}")

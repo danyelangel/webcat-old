@@ -82,6 +82,13 @@
         this.DocumentActions.removeThumbnailImage(docId);
       };
     }
+    addSectionYoutube() {
+      return (sectionId) => {
+        console.log('plop');
+        let docId = this.docId;
+        this.DocumentActions.addSectionYoutube(sectionId, docId);
+      };
+    }
   }
   angular
     .module('webcatEditor', ['ngFileUpload', 'angular-medium-editor'])

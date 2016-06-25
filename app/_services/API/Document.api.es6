@@ -217,6 +217,23 @@
           .catch(reject);
       });
     }
+    addSectionYoutube(link, sectionId, docId) {
+      let rootRef = this.Database.getDocSectionsRef(docId),
+          ref = rootRef.child(sectionId).child('content/youtube'),
+          regex = /(?:youtube\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([^"&?\/ ]{11})/i,
+          videoId = link.match(regex)[1],
+          thumbnailUrl = `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
+      console.log(videoId);
+      return new Promise((resolve, reject) => {
+        this.Database
+          .set(ref, {
+            url: link,
+            thumbnail: thumbnailUrl
+          })
+          .then(resolve)
+          .catch(reject);
+      });
+    }
   }
   angular
     .module('tao')

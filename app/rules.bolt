@@ -1,0 +1,59 @@
+type User {
+  private: UserPrivate,
+  public: UserPublic
+}
+type UserPrivate {
+  tokens: UserToken[]
+}
+type UserPublic {
+  profile: UserProfile || null,
+  taos: UserTaos
+}
+type UserProfile {
+  name: String || null,
+  location: String || null,
+  description: String || null
+  avatar: Image || null
+}
+type Image {
+  imageRef: String,
+  imageUrl: String
+}
+type Tao {
+  isArchived: Boolean,
+  token: String,
+  collaborators: Boolean[] || null,
+  languages: String[] || null
+}
+type Document {
+  taoId: String,
+  languageId: String,
+  data: DocumentData
+}
+type DocumentData {
+  metadata: DocumentMetadata,
+  sections: DocumentSection[]
+}
+type DocumentMetadata {
+  title: String || null,
+  description: String || null,
+  footer: String || null,
+  display: SectionDisplay,
+  thumbnail: Image
+}
+type SectionDisplay {
+  hasBackgroundBlur: Boolean || null,
+  isBright: Boolean || null,
+  hasBackgroundImage: Boolean || null
+}
+type DocumentSection {
+  priority: Number,
+  sectionId: String,
+  content: SectionContent,
+  display: SectionDisplay
+}
+type SectionContent {
+  title: String || null,
+  description: String || null,
+  image: Image
+}

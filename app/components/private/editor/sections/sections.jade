@@ -9,7 +9,8 @@ div(ng-repeat="section in $ctrl.doc.sections")
   on-section-update="$ctrl.updateSection(section.sectionId)"
   on-section-remove="$ctrl.removeSection(section.sectionId)"
   on-section-image-upload="$ctrl.uploadSectionImage(section.sectionId)"
-  on-section-image-remove="$ctrl.removeSectionImage(section.sectionId)")
+  on-section-image-remove="$ctrl.removeSectionImage(section.sectionId)",
+  on-section-youtube-add="$ctrl.addYoutube(section.sectionId)")
   add-section(
   ng-hide="$ctrl.isPreview"
   ng-if="$last" 

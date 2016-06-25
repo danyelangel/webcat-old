@@ -14,6 +14,7 @@
       'landing',
       'dashboard',
       'webcatEditor',
-      'webcatRender'
+      'webcatRender',
+      'oblador.lazytube'
     ]);
 }());

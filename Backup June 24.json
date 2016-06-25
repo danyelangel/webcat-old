@@ -1,0 +1,930 @@
+{
+  "documents" : {
+    "-KJCvSpc5pvrsMU8J8c5" : {
+      "data" : {
+        "metadata" : {
+          "description" : "<p>Una cultura experimental es una cultura sin nombre</p>",
+          "display" : {
+            "hasBackgroundBlur" : false,
+            "isBright" : false
+          },
+          "footer" : "Made by Daniel Ángel",
+          "thumbnail" : {
+            "imageRef" : "images/-KJHBlcTbbOBvz91b-Cf",
+            "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJHBlcTbbOBvz91b-Cf?alt=media&token=2136c6ef-6ed2-474a-a40e-3e678319fb0a"
+          },
+          "title" : "cultura experimental"
+        },
+        "sections" : {
+          "-KJHCrF-xphbay_qHPcX" : {
+            "content" : {
+              "description" : "<p>La ciudad antigua es genial!!&nbsp;</p>",
+              "image" : {
+                "imageRef" : "images/-KJHCz-tFRSUwmoX0cDV",
+                "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJHCz-tFRSUwmoX0cDV?alt=media&token=9a791d7f-5bca-46c4-bde1-b4d64bf11994"
+              },
+              "title" : "Ciudad antigua"
+            },
+            "display" : {
+              "hasBackgroundBlur" : false,
+              "hasBackgroundImage" : true,
+              "isBright" : false
+            },
+            "priority" : 1,
+            "sectionId" : "-KJHCrF-xphbay_qHPcX"
+          }
+        }
+      },
+      "languageId" : "es",
+      "taoId" : "-KJCvSn6FzXbQlzdsXHR"
+    },
+    "-KJHRYGCAO0A_6d_l3bH" : {
+      "data" : {
+        "metadata" : {
+          "description" : "<p>Hi Ale, I've been waiting for you.&nbsp;</p><p>Here's an example of what butterflies look like:</p>",
+          "display" : {
+            "hasBackgroundBlur" : true,
+            "isBright" : false
+          },
+          "footer" : "Made with love by Daniel Ángel",
+          "thumbnail" : {
+            "imageRef" : "images/-KJHUt8dp2GBJUczONgs",
+            "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJHUt8dp2GBJUczONgs?alt=media&token=bcc398be-720b-4355-9deb-aa9fe2dfa632"
+          },
+          "title" : "Alejandra Dussan"
+        },
+        "sections" : {
+          "-KJHU-oZfqd4QFjnI1QQ" : {
+            "content" : {
+              "description" : "<p>These types of butterflies are specially amazing because they have the ability to fly with their wings.</p><p>They have 2 wings, one for each side of their bodies because if they only had one they would not be able to fly.</p><p>Nature is pretty smart though...</p><p>So they have 2.</p>",
+              "image" : {
+                "imageRef" : "images/-KJHU0z-SjZ_NZtLkIAY",
+                "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJHU0z-SjZ_NZtLkIAY?alt=media&token=10b8d44d-a230-4573-8e53-07722f83850d"
+              },
+              "imageCaption" : "So Pretty!!",
+              "title" : "Pretty butterly"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : true
+            },
+            "priority" : 1,
+            "sectionId" : "-KJHU-oZfqd4QFjnI1QQ"
+          },
+          "-KJHUIl2xD4tao5ML9PD" : {
+            "content" : {
+              "description" : "<p>These butterflies have the special ability to be ugly. They are found in many places, specially among ugly people and ugly animals or ugly places too.</p><p>They are usually found on ugly days when ugly people feel like shit.</p><p>They also have 2 wings.</p>",
+              "image" : {
+                "imageRef" : "images/-KJHUdRxRPBBh0_OOrCE",
+                "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJHUdRxRPBBh0_OOrCE?alt=media&token=362b9cf5-2542-444a-a88e-3220d2c97b49"
+              },
+              "imageCaption" : "So ugly!!!&nbsp;",
+              "title" : "Ugly butterfly"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : false
+            },
+            "priority" : 2,
+            "sectionId" : "-KJHUIl2xD4tao5ML9PD"
+          }
+        }
+      },
+      "languageId" : "es",
+      "taoId" : "-KJHRYEOvIXxYIRPOz0L"
+    },
+    "-KJIXWb8tXFCswxOkrJY" : {
+      "data" : {
+        "metadata" : {
+          "description" : "<p>Hola</p>",
+          "display" : {
+            "hasBackgroundBlur" : true,
+            "isBright" : true
+          },
+          "footer" : "Hola",
+          "thumbnail" : {
+            "imageRef" : "images/-KJIY3Zueul86PjfjthM",
+            "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJIY3Zueul86PjfjthM?alt=media&token=b37fceef-7e7b-40c7-940e-86c203b0d1d1"
+          },
+          "title" : "Hola"
+        },
+        "sections" : {
+          "-KJIXZvP1az22gVthr10" : {
+            "content" : {
+              "image" : {
+                "imageRef" : "images/-KJIYGIbd1EMJgL36EqW",
+                "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJIYGIbd1EMJgL36EqW?alt=media&token=feeed869-4d52-4e53-9a41-42370052c185"
+              }
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : true,
+              "isBright" : true
+            },
+            "priority" : 1,
+            "sectionId" : "-KJIXZvP1az22gVthr10"
+          }
+        }
+      },
+      "languageId" : "es",
+      "taoId" : "-KJIXWYjt2B6h9U6PTvY"
+    },
+    "-KJIXZ8_ULSVRfopzWEF" : {
+      "data" : {
+        "metadata" : {
+          "description" : "<p><br></p>",
+          "display" : {
+            "hasBackgroundBlur" : true,
+            "isBright" : false
+          },
+          "title" : "IndependEncia"
+        },
+        "sections" : {
+          "-KJIamTx_gL6cAtwKsXo" : {
+            "content" : {
+              "description" : "<p>Tanto el rechazo, como la culpa y el abandono son emociones madre de las cuales se desprende una gran cantidad de emociones que llamamos de baja vibración &nbsp;por que nos llevan al sufrimiento.</p>",
+              "title" : "Emociones"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : true
+            },
+            "priority" : 1,
+            "sectionId" : "-KJIamTx_gL6cAtwKsXo"
+          },
+          "-KJIb5QLXMcKE1QPY7Vw" : {
+            "content" : {
+              "description" : "Todos en muchos momentos de nuestra vida nos sentimos rechazados de niños por nuestros padres, hermanos, compañeros del colegio, vecinos, en fin, y todos estos rechazos van quedando en nuestra memoria emocional, haciendo parte de nuestro sistema de creencias.",
+              "title" : "Rechazo"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : true
+            },
+            "priority" : 2,
+            "sectionId" : "-KJIb5QLXMcKE1QPY7Vw"
+          },
+          "-KJIbcz0328wI5k36pbp" : {
+            "content" : {
+              "description" : "<p>Es todo lo que nos creímos de niños cuando nos dijeron por ejemplo que no servíamos para nada, o que éramos tontos, o egoístas y un sinnúmero de calificativos; al igual que cuando nos decían que si hacíamos tal o cual cosa nos iba a pasar lo otro.</p>",
+              "title" : "Sistema de creencias"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : true
+            },
+            "priority" : 3,
+            "sectionId" : "-KJIbcz0328wI5k36pbp"
+          },
+          "-KJIcQPGOQGdJCqkNmJs" : {
+            "content" : {
+              "description" : "<p>Una vez tomamos como ciertas esas creencias, hicimos contratos con ellas para no volver a sufrir.</p><p><br></p><p><br></p>",
+              "title" : "Contratos"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : true
+            },
+            "priority" : 4,
+            "sectionId" : "-KJIcQPGOQGdJCqkNmJs"
+          },
+          "-KJIdeIauLbFP0v5yko8" : {
+            "content" : {
+              "description" : "<p><i>A cambio de que no me regañaran. ese fue el contrato que hice con esa creencia, en otras palabras, a cambio de que me aceptaran, de que no me rechazaran.</i></p>",
+              "title" : "A cambio de"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : true
+            },
+            "priority" : 5,
+            "sectionId" : "-KJIdeIauLbFP0v5yko8"
+          },
+          "-KJIdyHyD14DkDF3ppxj" : {
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : true
+            },
+            "priority" : 6,
+            "sectionId" : "-KJIdyHyD14DkDF3ppxj"
+          },
+          "-KJIrvdlDoLkZ5WQXvkY" : {
+            "content" : {
+              "description" : "<p><i>Cuando niña me regañaban porque lloraba si me caía, me decían que yo tenía que aprender a ser fuerte, que dejara de ser llorona. La decisión que tomé entonces fue no llorar ante ninguna circunstancia.</i></p>",
+              "title" : "<br>"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : true
+            },
+            "priority" : 4.5,
+            "sectionId" : "-KJIrvdlDoLkZ5WQXvkY"
+          }
+        }
+      },
+      "languageId" : "es",
+      "taoId" : "-KJIXZ5bW0LcvAzDUTyi"
+    },
+    "-KJIrcOJicPFG4QCb3QU" : {
+      "data" : {
+        "metadata" : {
+          "description" : "<p>Una cultura experimental es una cultura sin un norte. Sin una visión clara. La experimentación es útil como herramienta pero cuando ésta se hace la protagonista de una cultura, la visión se puede ir perdiendo. Pero para saber qué es una cultura experimental, hagámonos una pregunta: ¿Qué es la experimentación?</p><p><br></p><p>por Daniel Ángel</p>",
+          "display" : {
+            "hasBackgroundBlur" : true,
+            "isBright" : false
+          },
+          "thumbnail" : {
+            "imageRef" : "images/-KJNBi88KFpdyyL4JDyw",
+            "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJNBi88KFpdyyL4JDyw?alt=media&token=f68a51c4-49e0-43d9-9db7-34552679adeb"
+          },
+          "title" : "Cultura Experimental"
+        },
+        "sections" : {
+          "-KJN5gjbRzMS0DYZSkNa" : {
+            "content" : {
+              "description" : "<p>Un experimento es básicamente la comprobación de una hipótesis intentando probar una serie de variables que pueden ser su causa. Por ejemplo el experimento de la prisión de Stanford.</p>",
+              "title" : "¿Qué es un experimento?"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : false
+            },
+            "priority" : 1,
+            "sectionId" : "-KJN5gjbRzMS0DYZSkNa"
+          },
+          "-KJN5mrzzGIY5BuzXyTE" : {
+            "content" : {
+              "description" : "<p>La prisión de Stanford fue un experimento psicológico para comprobar una hipótesis llamada el Efecto Lucifer que dice que las personas buenas tienden a volverse malas si el entorno en el que se encuentran los incita a comportarse de mala manera.</p>",
+              "image" : {
+                "imageRef" : "images/-KJN5ybek8utnHUY8YiB",
+                "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJN5ybek8utnHUY8YiB?alt=media&token=21aef276-5d74-486b-aa50-7c9d65832f3e"
+              },
+              "title" : "Prisión de stanford"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : true
+            },
+            "priority" : 2,
+            "sectionId" : "-KJN5mrzzGIY5BuzXyTE"
+          },
+          "-KJN6AVkmXL5SzAjXuZ9" : {
+            "content" : {
+              "description" : "<p>Después de sólo 6 días, el experimento tuvo que cancelarse porque los guardias se tomaron muy en serio su rol y se volvieron sádicos y violentos, mientras que los reclusos se deprimieron y adquirieron trastornos emocionales.</p>",
+              "image" : {
+                "imageRef" : "images/-KJN6Gof9qz5K9aWwZvY",
+                "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJN6Gof9qz5K9aWwZvY?alt=media&token=25ea835d-ee98-4580-a77d-998d4274a2d2"
+              },
+              "imageCaption" : "Imagen tomada del video The Stanford Prison Experiment en Youtube",
+              "title" : "Resultados del experimento"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : true
+            },
+            "priority" : 3,
+            "sectionId" : "-KJN6AVkmXL5SzAjXuZ9"
+          },
+          "-KJN6STGvRQleEbtfIqE" : {
+            "content" : {
+              "description" : "<p>Hay una excelente película alemana llamada Das Experiment que recrea este experimento basándose en una novela escrita por Mario Giordano. Esta película es toda una obra de arte. ¿Pero es posible que existan experimentos en el arte?</p>",
+              "image" : {
+                "imageRef" : "images/-KJN6WYmfQFDuqQk3k3k",
+                "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJN6WYmfQFDuqQk3k3k?alt=media&token=7daf4235-070e-4b9e-b855-7142570d7886"
+              },
+              "title" : "Das Experiment"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : false
+            },
+            "priority" : 4,
+            "sectionId" : "-KJN6STGvRQleEbtfIqE"
+          },
+          "-KJN6gz_acp5T5Rub86P" : {
+            "content" : {
+              "description" : "<p>En 1975 el artista estadounidense Chris Burden permaneció inmóvil bajo una placa de vidrio por 25 horas. La finalidad de su obra era poner a prueba su audiencia y ver cuánto duraría sin intervenir.</p>",
+              "image" : {
+                "imageRef" : "images/-KJN6p5RMrzxtDqrrNxJ",
+                "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJN6p5RMrzxtDqrrNxJ?alt=media&token=3f27c58d-293c-4744-93e2-c5a10e01d832"
+              },
+              "title" : "Condenado"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : true,
+              "isBright" : false
+            },
+            "priority" : 5,
+            "sectionId" : "-KJN6gz_acp5T5Rub86P"
+          },
+          "-KJN6zFMkNOQpU7__aCc" : {
+            "content" : {
+              "description" : "<p>La obra terminó cuando un guardia de seguridad puso un vaso de agua junto a él. El experimento de Chris Burden fue su audiencia. Él quiso que el significado de la obra fuera dado por la misma audiencia. El título de la obra fue 'Condenado'.</p>",
+              "image" : {
+                "imageRef" : "images/-KJN75LmgkV4SPDm5Uvd",
+                "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJN75LmgkV4SPDm5Uvd?alt=media&token=395988a8-4518-43d4-af4a-0d763b0fddc7"
+              },
+              "title" : "Resultados del experimento"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : true
+            },
+            "priority" : 6,
+            "sectionId" : "-KJN6zFMkNOQpU7__aCc"
+          },
+          "-KJN7DqKbpr9xbxuJ7b2" : {
+            "content" : {
+              "description" : "<p>Pero Chris Burden no es el único que ha experimentado con el arte. Hay muchos ejemplos de artistas contemporáneos que han recurrido a la experimentación para poder abrir las posibilidades de su arte. Artistas que han buscado un cambio.</p>",
+              "image" : {
+                "imageRef" : "images/-KJN7H_Qp65IIjv-Phk6",
+                "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJN7H_Qp65IIjv-Phk6?alt=media&token=e823cd2a-2f1f-483c-bc2b-ec12be23b5b2"
+              },
+              "title" : "Experimentar por un cambio"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : false
+            },
+            "priority" : 7,
+            "sectionId" : "-KJN7DqKbpr9xbxuJ7b2"
+          },
+          "-KJN7RHfHsw3n-J3cGy1" : {
+            "content" : {
+              "description" : "<p>En las décadas entre los siglos XIX y XX, se comenzó a insistir en la necesidad de marcar diferencia con los estilos artísticos del pasado. De esta ruptura nacieron las Vanguardias artísticas, las cuales ya no buscaban imitar a la naturaleza sino crear una nueva estética mental basada en la abstracción.</p>",
+              "image" : {
+                "imageRef" : "images/-KJN7VzD5GQcAnxbmjOt",
+                "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJN7VzD5GQcAnxbmjOt?alt=media&token=6d615a05-9100-43aa-8de8-b37247437eb7"
+              },
+              "title" : "Las vanguardias"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : true
+            },
+            "priority" : 8,
+            "sectionId" : "-KJN7RHfHsw3n-J3cGy1"
+          },
+          "-KJN7doWsaas2tP70OsD" : {
+            "content" : {
+              "description" : "<p>Por ejemplo, el pintor cubista Georges Braque buscó usar formas geométricas para crear una nueva estética. Según el crítico estadounidense John Berger, la pintura cubista es un diagrama que resulta de la abstracción de la realidad hacia conceptos más simples.</p>",
+              "image" : {
+                "imageRef" : "images/-KJN7mGGYZpGToUBiwkN",
+                "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJN7mGGYZpGToUBiwkN?alt=media&token=1aa4afa9-ecb7-40be-bf3b-fd5a25288ffc"
+              },
+              "title" : "El cubismo"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : false
+            },
+            "priority" : 9,
+            "sectionId" : "-KJN7doWsaas2tP70OsD"
+          },
+          "-KJN7u4L2UnluVjztyrw" : {
+            "content" : {
+              "description" : "<p>Pero la abstracción no fue el único método de experimentación con el arte. Artistas surrealistas como Edgar Ende experimentaron con los sueños y el subconsciente para crear nuevas estéticas totalmente diferentes a la realidad palpable.</p>",
+              "image" : {
+                "imageRef" : "images/-KJN8-w6ZUNGIhpj_FwD",
+                "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJN8-w6ZUNGIhpj_FwD?alt=media&token=2f12f0fe-fed9-404a-bc31-a1849dd820e8"
+              },
+              "title" : "El surrealismo"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : false
+            },
+            "priority" : 10,
+            "sectionId" : "-KJN7u4L2UnluVjztyrw"
+          },
+          "-KJN87CNlBfKx9tMoU3p" : {
+            "content" : {
+              "description" : "<p>Esta necesidad de cambio también se manifestó en la literatura. Muchos escritores comenzaron a usar la experimentación y de ahí surgieron textos como Gadsby, del escritor estadounidense Ernest Vincent Wright, una novela escrita totalmente sin usar la letra e.</p>",
+              "image" : {
+                "imageRef" : "images/-KJN8E_4cc0I0XqPaWOU",
+                "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJN8E_4cc0I0XqPaWOU?alt=media&token=8ddd184b-e8ea-41b4-8ed6-1b9854b9ef9f"
+              },
+              "title" : "Gadsby"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : false
+            },
+            "priority" : 11,
+            "sectionId" : "-KJN87CNlBfKx9tMoU3p"
+          },
+          "-KJN8Srf1oUqaaTxtPad" : {
+            "content" : {
+              "description" : "<p>Un ejemplo del surrealismo en el cine es Un Perro Andaluz. Un cortometraje basado en 2 sueños, un sueño de Salvador Dalí que consistía en hormigas pululando de sus manos y uno de Luis Buñuel consistía en una navaja seccionando el ojo de alguien.</p>",
+              "image" : {
+                "imageRef" : "images/-KJN8Ye0awSZ4muZdFd0",
+                "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJN8Ye0awSZ4muZdFd0?alt=media&token=502309d3-416a-4046-a3cc-e06a365f2c19"
+              },
+              "title" : "un perro andaluz"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : false
+            },
+            "priority" : 12,
+            "sectionId" : "-KJN8Srf1oUqaaTxtPad"
+          },
+          "-KJN8erENYv32_ESmSVe" : {
+            "content" : {
+              "description" : "<p>Pero aunque esa experimentación puede ampliar increíblemente las posibilidades creativas, también conlleva una problemática ética para el artista que ha sido criticada por algunos autores, entre ellos el escritor alemán Michael Ende.</p>",
+              "image" : {
+                "imageRef" : "images/-KJN8rOApkjG8-ANdqK-",
+                "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJN8rOApkjG8-ANdqK-?alt=media&token=ebc7ea5c-0f27-4267-a7c9-8adb621c16c1"
+              },
+              "title" : "LOS PROBLEMAS DE LA EXPERIMENTACIÓN"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : false
+            },
+            "priority" : 13,
+            "sectionId" : "-KJN8erENYv32_ESmSVe"
+          },
+          "-KJN8k-3CPqV4RrCoUg1" : {
+            "content" : {
+              "description" : "<p><i>“A mí, esa gente que hace experimentos con el arte y la literatura me parece como si en realidad quisiera decir lo siguiente: “Nosotros no estamos de acuerdo, por supuesto, con lo que hacemos. Con nosotros, personalmente, eso no tiene nada que ver. Con ello no nos comprometemos absolutamente a nada.”</i></p><p><i><br></i></p><p><i>Michael Ende</i></p>",
+              "image" : {
+                "imageRef" : "images/-KJN95QDZdSqYst5yZ6T",
+                "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJN95QDZdSqYst5yZ6T?alt=media&token=8b6efecd-b095-41c9-aa12-add54d49683c"
+              }
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : true
+            },
+            "priority" : 14,
+            "sectionId" : "-KJN8k-3CPqV4RrCoUg1"
+          },
+          "-KJN9Bm6URZGTjpPgOMU" : {
+            "content" : {
+              "description" : "<p>Michael Ende dice en su texto Cultura Experimental que al declarar el arte como experimento, los artistas se protegen del rechazo ya que niegan toda responsabilidad sobre su obra. No es mi obra, solo es un experimento. Es bastante irónico. Pero hablando de ironía, ¿Qué es ironía?</p>",
+              "image" : {
+                "imageRef" : "images/-KJN9GiSRzGs7on-DcvG",
+                "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJN9GiSRzGs7on-DcvG?alt=media&token=326de04d-77c2-4145-9e6d-7c93b8bd6de1"
+              },
+              "title" : "CULTURA EXPERIMENTAL &nbsp;"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : true
+            },
+            "priority" : 15,
+            "sectionId" : "-KJN9Bm6URZGTjpPgOMU"
+          },
+          "-KJN9OBDBntz4WkZSMnY" : {
+            "content" : {
+              "description" : "<p>La ironía es expresar algo usando lenguaje que significa lo opuesto, usualmente para dar un tono de humor a lo que se dice. Bastante obvio, ¿No? De hecho no. En una encuesta hecha en Estados Unidos por Patricia Rockwell se llegó a un resultado un tanto irónico.</p>",
+              "image" : {
+                "imageRef" : "images/-KJN9TMV0qP2AsB5TmhF",
+                "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJN9TMV0qP2AsB5TmhF?alt=media&token=c6608691-dbea-484e-93fa-8aa9cd8639f7"
+              },
+              "title" : "¿Qué es la ironía?"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : true
+            },
+            "priority" : 16,
+            "sectionId" : "-KJN9OBDBntz4WkZSMnY"
+          },
+          "-KJN9brPqZO9upBVUYI2" : {
+            "content" : {
+              "description" : "<p>En la encuesta se preguntaba por un comentario irónico. El 25% no fue capaz de responder la pregunta y el 55% sólo dijo algo chistoso pero no irónico. De hecho, menos de la mitad fue capaz de responder algo realmente irónico. ¿Por qué pasó ésto si la ironía es tan difundida?</p>",
+              "image" : {
+                "imageRef" : "images/-KJN9g3mPmYgxDHRK6Rd",
+                "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJN9g3mPmYgxDHRK6Rd?alt=media&token=5074ce8b-9496-48ac-8a90-61d024ce10c5"
+              },
+              "title" : "“¡SÍ, CLARO!” &nbsp;"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : false
+            },
+            "priority" : 17,
+            "sectionId" : "-KJN9brPqZO9upBVUYI2"
+          },
+          "-KJN9v8yGf_vSWlvzDzx" : {
+            "content" : {
+              "description" : "<p>Christy Wampole, en su artículo titulado Contra los hipsters o cómo vivir sin ironía, habla acerca de cómo la ironía se ha difundido tanto entre los jóvenes que se ha vuelto una forma de vivir. Pero esta difusión es probablemente lo que la ha convertido en moda y ha incitado su uso entre la gente que ni siquiera sabe cómo usarla correctamente o qué es.</p>",
+              "image" : {
+                "imageRef" : "images/-KJNA0fni9uujOTm3Ts4",
+                "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJNA0fni9uujOTm3Ts4?alt=media&token=182dcbd1-0687-4ff3-b9b2-6b10e11cc9ba"
+              },
+              "title" : "La moda de la ironía"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : false
+            },
+            "priority" : 18,
+            "sectionId" : "-KJN9v8yGf_vSWlvzDzx"
+          },
+          "-KJNAzFDEi0xEgWm3PeO" : {
+            "content" : {
+              "description" : "<p><i>“La ironía es el modo más eficaz de autodefensa porque le permite a una persona eludir la responsabilidad de sus decisiones, estéticas o de cualquier otra índole”.</i></p><p><i><br></i></p><p><i>Christy Wampole</i></p>",
+              "image" : {
+                "imageRef" : "images/-KJNB7WXr5m3EJ17AeXc",
+                "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJNB7WXr5m3EJ17AeXc?alt=media&token=2fa9932f-f00a-479c-bfbe-4d2edd538eba"
+              }
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : false
+            },
+            "priority" : 19,
+            "sectionId" : "-KJNAzFDEi0xEgWm3PeO"
+          },
+          "-KJNBFVzJPUsKZjLq1B8" : {
+            "content" : {
+              "description" : "<p>Tal como Michael Ende criticó la experimentación, Christy Wampole también criticó la ironía. Hasta cierto punto, ambas pueden ser usadas como una forma de evadir la responsabilidad sobre de las propias acciones.</p>",
+              "image" : {
+                "imageRef" : "images/-KJNBJiG2Z40gppB5hTE",
+                "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJNBJiG2Z40gppB5hTE?alt=media&token=ed9c8175-3601-43f3-b38b-5ac5f1cec842"
+              },
+              "title" : "PELIGROS DE UNA SOCIEDAD IRÓNICA&nbsp;"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : true,
+              "isBright" : false
+            },
+            "priority" : 20,
+            "sectionId" : "-KJNBFVzJPUsKZjLq1B8"
+          },
+          "-KJNBOUr8Y5R4ADpbIK9" : {
+            "content" : {
+              "description" : "<p><i>Así que la próxima vez que vayas a hacer un experimento o a hablar irónicamente, piensa por un momento: ¿Estoy haciendo esto para eludir responsabilidad o para una finalidad legítima?</i></p>",
+              "image" : {
+                "imageRef" : "images/-KJNBT2Qwryj1zvgZ28A",
+                "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJNBT2Qwryj1zvgZ28A?alt=media&token=6f5f620b-083b-4880-990b-1a80e471b972"
+              }
+            },
+            "display" : {
+              "hasBackgroundBlur" : false,
+              "hasBackgroundImage" : true,
+              "isBright" : false
+            },
+            "priority" : 21,
+            "sectionId" : "-KJNBOUr8Y5R4ADpbIK9"
+          }
+        }
+      },
+      "languageId" : "es",
+      "taoId" : "-KJIrcKQPX6eexd21dyy"
+    },
+    "-KJT9xBNHpBzcFMrNC63" : {
+      "data" : {
+        "metadata" : {
+          "description" : "<p>holamellamomaria</p>",
+          "display" : {
+            "hasBackgroundBlur" : true,
+            "isBright" : true
+          },
+          "title" : "holamellamomaria"
+        },
+        "sections" : {
+          "-KJT9ypJDAcCNag2zGZm" : {
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : true
+            },
+            "priority" : 1,
+            "sectionId" : "-KJT9ypJDAcCNag2zGZm"
+          }
+        }
+      },
+      "languageId" : "es",
+      "taoId" : "-KJT9x8orCoAETkvDIGP"
+    },
+    "-KL2xLG7M1F8DF1zsX8a" : {
+      "data" : {
+        "metadata" : {
+          "description" : "<p><br></p>",
+          "display" : {
+            "hasBackgroundBlur" : true,
+            "isBright" : true
+          },
+          "thumbnail" : {
+            "imageRef" : "images/-KL36wd1L9xB6pZwLnFJ",
+            "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KL36wd1L9xB6pZwLnFJ?alt=media&token=b123ae9d-e57d-4f16-b1c0-98c3d7e37d2b"
+          },
+          "title" : "Te Amo"
+        },
+        "sections" : {
+          "-KL2xW5P3qTOsIiMb2xW" : {
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : true
+            },
+            "priority" : 1,
+            "sectionId" : "-KL2xW5P3qTOsIiMb2xW"
+          }
+        }
+      },
+      "languageId" : "es",
+      "taoId" : "-KL2xLEEhA2O11p1jzSz"
+    },
+    "-KL3A-4fClaiMocywdLw" : {
+      "data" : {
+        "metadata" : {
+          "description" : "<p>Test</p>",
+          "display" : {
+            "hasBackgroundBlur" : true,
+            "isBright" : true
+          },
+          "title" : "Test"
+        }
+      },
+      "languageId" : "es",
+      "taoId" : "-KL3A-2hIHuA-HvCBjUR"
+    },
+    "landingPage" : {
+      "data" : {
+        "metadata" : {
+          "description" : "<p>Crea documentos elegantes y simples en minutos sin tener que diseñar nada.</p><p>Añade texto e imágenes y observa la magia de Webcat.</p>",
+          "display" : {
+            "hasBackgroundBlur" : true,
+            "isBright" : false
+          },
+          "footer" : "Crea tu cuenta haciendo click en el botón de arriba.",
+          "thumbnail" : {
+            "imageRef" : "images/-KJHmc5bM0D1DwVJ85KU",
+            "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJHmc5bM0D1DwVJ85KU?alt=media&token=a750c3f8-83b2-4e71-a002-b3d6e37c8df3"
+          },
+          "title" : "Webcat"
+        },
+        "sections" : {
+          "-KJHmmSwqo61Lp49ARuL" : {
+            "content" : {
+              "description" : "<p>Garantizamos que cada página web funcionará de manera óptima en <b>cualquier</b> <b>dispositivo</b>, independientemente de su tamaño.</p><p><br></p><p>Ten la tranquilidad de que tu página se verá de la mejor manera, ya sea en un celular, tablet, computador o hasta un televisor.</p>",
+              "image" : {
+                "imageRef" : "images/-KJHnWCHcaqVIp2a8Nds",
+                "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJHnWCHcaqVIp2a8Nds?alt=media&token=b14e85db-b5ef-41ce-9a2f-3b0fda701495"
+              },
+              "title" : "Multiplataforma"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : true
+            },
+            "priority" : 1,
+            "sectionId" : "-KJHmmSwqo61Lp49ARuL"
+          },
+          "-KJHo4zVd6IEHYnf8j0u" : {
+            "content" : {
+              "description" : "<p>Cada página web es un nuevo proyecto programado desde ceros con los últimos estándares de calidad y compatibilidad para los navegadores más comunes.&nbsp;</p><p><br></p><p>Soportamos:</p><p>Chrome</p><p>Safari</p><p>Firefox</p><p>Internet Explorer</p>",
+              "image" : {
+                "imageRef" : "images/-KJHoH2GDQvbWoQsLZvU",
+                "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJHoH2GDQvbWoQsLZvU?alt=media&token=887f3d4a-7432-42d3-8418-dbf1b1f7d6b7"
+              },
+              "title" : "Compatibles"
+            },
+            "display" : {
+              "hasBackgroundBlur" : true,
+              "hasBackgroundImage" : false,
+              "isBright" : true
+            },
+            "priority" : 2,
+            "sectionId" : "-KJHo4zVd6IEHYnf8j0u"
+          }
+        }
+      },
+      "languageId" : "es",
+      "taoId" : "landingPage"
+    }
+  },
+  "languages" : {
+    "es" : true
+  },
+  "taos" : {
+    "-KJCvSn6FzXbQlzdsXHR" : {
+      "collaborators" : {
+        "ddzFcRoWteeTIh5wGK7r0fIknXl1" : true
+      },
+      "isArchived" : false,
+      "languages" : {
+        "es" : "-KJCvSpc5pvrsMU8J8c5"
+      },
+      "token" : "-KJCvSn5B5OQ3eLZUdB3"
+    },
+    "-KJHRYEOvIXxYIRPOz0L" : {
+      "collaborators" : {
+        "ddzFcRoWteeTIh5wGK7r0fIknXl1" : true
+      },
+      "isArchived" : false,
+      "languages" : {
+        "es" : "-KJHRYGCAO0A_6d_l3bH"
+      },
+      "token" : "-KJHRYEOvIXxYIRPOz0K"
+    },
+    "-KJIXWYjt2B6h9U6PTvY" : {
+      "collaborators" : {
+        "X1NrvY5CWoYXRGFuKdGa1XDNAFJ3" : true
+      },
+      "isArchived" : true,
+      "languages" : {
+        "es" : "-KJIXWb8tXFCswxOkrJY"
+      },
+      "token" : "-KJIXWYicYwkgCBUf1JJ"
+    },
+    "-KJIXZ5bW0LcvAzDUTyi" : {
+      "collaborators" : {
+        "uxyklwRRWyaigR0nFSGt8WfXCHi2" : true
+      },
+      "isArchived" : true,
+      "languages" : {
+        "es" : "-KJIXZ8_ULSVRfopzWEF"
+      },
+      "token" : "-KJIXZ5ao6ug_Y0v7BZN"
+    },
+    "-KJIrcKQPX6eexd21dyy" : {
+      "collaborators" : {
+        "c0flFBgqOwRUABWrsGSQp0VCaCz2" : true
+      },
+      "isArchived" : false,
+      "languages" : {
+        "es" : "-KJIrcOJicPFG4QCb3QU"
+      },
+      "token" : "-KJIrcKPeplb8-8sDxWe"
+    },
+    "-KJT9x8orCoAETkvDIGP" : {
+      "collaborators" : {
+        "N5X5aT5D4fWcsPsN20hHgYs3SM63" : true
+      },
+      "isArchived" : true,
+      "languages" : {
+        "es" : "-KJT9xBNHpBzcFMrNC63"
+      },
+      "token" : "-KJT9x8orCoAETkvDIGO"
+    },
+    "-KL2xLEEhA2O11p1jzSz" : {
+      "collaborators" : {
+        "ERc54b72sDVJNsWy4sIB1ORSscD3" : true
+      },
+      "isArchived" : true,
+      "languages" : {
+        "es" : "-KL2xLG7M1F8DF1zsX8a"
+      },
+      "token" : "-KL2xLEDjyjkjjwNbfCh"
+    },
+    "-KL3A-2hIHuA-HvCBjUR" : {
+      "collaborators" : {
+        "c0flFBgqOwRUABWrsGSQp0VCaCz2" : true
+      },
+      "isArchived" : true,
+      "languages" : {
+        "es" : "-KL3A-4fClaiMocywdLw"
+      },
+      "token" : "-KL3A-2gcvIAh71hkkIC"
+    },
+    "landingPage" : {
+      "collaborators" : {
+        "ddzFcRoWteeTIh5wGK7r0fIknXl1" : true
+      },
+      "isArchived" : false,
+      "languages" : {
+        "es" : "landingPage"
+      },
+      "token" : "-KJHmBvlSZrtffZPonrg"
+    }
+  },
+  "users" : {
+    "ERc54b72sDVJNsWy4sIB1ORSscD3" : {
+      "private" : {
+        "tokens" : {
+          "-KL2xLEEhA2O11p1jzSz" : "-KL2xLEDjyjkjjwNbfCh"
+        }
+      },
+      "public" : {
+        "profile" : {
+          "name" : "Juan Sebastian Vasquez"
+        },
+        "taos" : {
+          "-KL2xLEEhA2O11p1jzSz" : true
+        }
+      }
+    },
+    "N5X5aT5D4fWcsPsN20hHgYs3SM63" : {
+      "private" : {
+        "tokens" : {
+          "-KJT9x8orCoAETkvDIGP" : "-KJT9x8orCoAETkvDIGO"
+        }
+      },
+      "public" : {
+        "taos" : {
+          "-KJT9x8orCoAETkvDIGP" : true
+        }
+      }
+    },
+    "X1NrvY5CWoYXRGFuKdGa1XDNAFJ3" : {
+      "private" : {
+        "tokens" : {
+          "-KJIXWYjt2B6h9U6PTvY" : "-KJIXWYicYwkgCBUf1JJ"
+        }
+      },
+      "public" : {
+        "profile" : {
+          "name" : "Juan"
+        },
+        "taos" : {
+          "-KJIXWYjt2B6h9U6PTvY" : true
+        }
+      }
+    },
+    "c0flFBgqOwRUABWrsGSQp0VCaCz2" : {
+      "private" : {
+        "tokens" : {
+          "-KJIrcKQPX6eexd21dyy" : "-KJIrcKPeplb8-8sDxWe",
+          "-KL3A-2hIHuA-HvCBjUR" : "-KL3A-2gcvIAh71hkkIC"
+        }
+      },
+      "public" : {
+        "profile" : {
+          "description" : "<p>plop</p>",
+          "location" : "Bogotá, Colombia",
+          "name" : "Daniel Ángel"
+        },
+        "taos" : {
+          "-KJIrcKQPX6eexd21dyy" : true,
+          "-KL3A-2hIHuA-HvCBjUR" : true
+        }
+      }
+    },
+    "ddzFcRoWteeTIh5wGK7r0fIknXl1" : {
+      "private" : {
+        "tokens" : {
+          "-KJCvSn6FzXbQlzdsXHR" : "-KJCvSn5B5OQ3eLZUdB3",
+          "-KJHRYEOvIXxYIRPOz0L" : "-KJHRYEOvIXxYIRPOz0K",
+          "landingPage" : "-KJHmBvlSZrtffZPonrg"
+        }
+      },
+      "public" : {
+        "profile" : {
+          "avatar" : {
+            "imageRef" : "images/-KJBujYgCdimNa-MihLh",
+            "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/project-867618968114337534.appspot.com/o/images%2F-KJBujYgCdimNa-MihLh?alt=media&token=73a70d50-addb-4f39-b05f-ffd0150cbda1"
+          },
+          "description" : "<p>Me encanta escribir este tipo de bobadas, gracias gracias vida por permitirme escribir esto...</p>",
+          "location" : "Bogotá, Colombia",
+          "name" : "Daniel Ángel"
+        },
+        "taos" : {
+          "-KJCvSn6FzXbQlzdsXHR" : true,
+          "-KJHRYEOvIXxYIRPOz0L" : true,
+          "landingPage" : true
+        }
+      }
+    },
+    "uxyklwRRWyaigR0nFSGt8WfXCHi2" : {
+      "private" : {
+        "tokens" : {
+          "-KJIXZ5bW0LcvAzDUTyi" : "-KJIXZ5ao6ug_Y0v7BZN"
+        }
+      },
+      "public" : {
+        "profile" : {
+          "name" : "Cristina"
+        },
+        "taos" : {
+          "-KJIXZ5bW0LcvAzDUTyi" : true
+        }
+      }
+    }
+  }
+}

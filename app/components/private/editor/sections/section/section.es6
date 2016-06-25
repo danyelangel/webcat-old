@@ -14,6 +14,12 @@
         this.onSectionImageUpload()(file);
       }
     }
+    addYoutube() {
+      this.section.display.hasBackgroundImage = false;
+      this.section.display.hasBackgroundBlur = true;
+      this.update();
+      this.onSectionYoutubeAdd()();
+    }
     removeImage() {
       this.section.display.hasBackgroundImage = false;
       this.section.display.hasBackgroundBlur = true;
@@ -42,7 +48,8 @@
         onSectionUpdate: '&',
         onSectionRemove: '&',
         onSectionImageUpload: '&',
-        onSectionImageRemove: '&'
+        onSectionImageRemove: '&',
+        onSectionYoutubeAdd: '&'
       }
     });
 }());

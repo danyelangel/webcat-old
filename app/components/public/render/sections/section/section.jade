@@ -18,10 +18,10 @@ ng-class="{'section-dark':!$ctrl.section.display.isBright, 'section-image-backgr
     flex-order-gt-sm="1"
     ng-class="{'centerText': !$ctrl.section.content.image.imageUrl || $ctrl.section.display.hasBackgroundImage}")
       .md-headline(
-      ng-bind="$ctrl.section.content.title")
+      ng-bind-html="$ctrl.$s($ctrl.section.content.title)")
 
       .separator(
-      ng-show="$ctrl.section.content.title")
+      ng-show="$ctrl.section.content.title && $ctrl.section.content.description")
 
       .md-title(
       ng-bind-html="$ctrl.$s($ctrl.section.content.description)")
@@ -40,7 +40,18 @@ ng-class="{'section-dark':!$ctrl.section.display.isBright, 'section-image-backgr
       ng-show="$ctrl.section.content.imageCaption")
         .md-subhead(
         ng-bind="$ctrl.section.content.imageCaption")
+        
+    .image(
+    ng-if="$ctrl.section.content.youtube.url && !$ctrl.section.content.image.imageUrl"
+    flex="90"
+    flex-sm="80"
+    flex-gt-sm="45"
+    flex-order="1"
+    flex-order-gt-sm="2")
+      a(
+      ob-lazytube=""
+      href="{{$ctrl.section.content.youtube.url}}")
     
   .background(
-  ng-style="{backgroundImage: 'url('+$ctrl.section.content.image.imageUrl+')'}"
+  ng-style="{backgroundImage: 'url('+($ctrl.section.content.image.imageUrl||$ctrl.section.content.youtube.thumbnail)+')'}"
   ng-class="{'background-blur': $ctrl.section.display.hasBackgroundBlur, 'background-image': $ctrl.section.display.hasBackgroundImage}")

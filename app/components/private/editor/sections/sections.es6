@@ -34,6 +34,12 @@
         this.onSectionImageRemove()(sectionId);
       };
     }
+    addYoutube(sectionId) {
+      return () => {
+        console.log('plop');
+        this.onSectionYoutubeAdd()(sectionId);
+      };
+    }
   }
   angular
     .module('webcatEditor')
@@ -47,7 +53,8 @@
         onSectionRemove: '&',
         onSectionUpdate: '&',
         onSectionImageUpload: '&',
-        onSectionImageRemove: '&'
+        onSectionImageRemove: '&',
+        onSectionYoutubeAdd: '&'
       }
     });
 }());
